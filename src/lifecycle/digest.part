@@ -1,0 +1,173 @@
+--- meta
+title: [PRODUCT_NAME] digest for [PERIOD_LABEL]
+aria: [PRODUCT_NAME] digest for [PERIOD_LABEL]
+preheader: Three items, the numbers for the period, and a link to the full archive.
+subject: [PRODUCT_NAME] digest for [PERIOD_LABEL]
+footer: commercial
+reason: You are receiving this email because [EMAIL_ADDRESS] is signed up for the [PRODUCT_NAME] digest.
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Your digest for [PERIOD_LABEL]</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Here is what is new in [PRODUCT_NAME] for [PERIOD_LABEL]. Three items are below. Everything else from the period is in the archive.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Numbers for [PERIOD_LABEL]</caption>
+<tbody>
+<tr>
+<th class="tot-label" scope="row" align="left" width="45%"
+    style="width:45%;padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">[METRIC_1_LABEL]</th>
+<td class="tot-grand-value" align="right" width="55%"
+    style="width:55%;padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[METRIC_1_VALUE]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">[METRIC_2_LABEL]</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[METRIC_2_VALUE]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">[METRIC_3_LABEL]</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[METRIC_3_VALUE]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">If your mail client cuts this message short, you can read <a class="link" href="[ALL_ITEMS_URL]" style="color:#1e40af;text-decoration:underline;">the full archive</a> on the web.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<h2 style="margin:0 0 4px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;"><a class="link" href="[ITEM_1_URL]" style="color:#1e40af;text-decoration:underline;">[ITEM_1_TITLE]</a></h2>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[ITEM_1_SUMMARY]</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="tbl-rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<h2 style="margin:0 0 4px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;"><a class="link" href="[ITEM_2_URL]" style="color:#1e40af;text-decoration:underline;">[ITEM_2_TITLE]</a></h2>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[ITEM_2_SUMMARY]</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="tbl-rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<h2 style="margin:0 0 4px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;"><a class="link" href="[ITEM_3_URL]" style="color:#1e40af;text-decoration:underline;">[ITEM_3_TITLE]</a></h2>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[ITEM_3_SUMMARY]</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:28px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="ghost"
+   href="[ALL_ITEMS_URL]"
+   style="background-color:#ffffff;border:1px solid #6b6b70;border-radius:6px;color:#1a1a1a;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#ffffff;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->Open the full archive<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the button above does not work, copy and paste this address into your browser:<br>
+<a class="link" href="[ALL_ITEMS_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[ALL_ITEMS_URL]</a></p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">This digest arrives on a schedule. To get it less often, more often, or not at all, open your <a class="link" href="[SECONDARY_URL]" style="color:#1e40af;text-decoration:underline;">email settings</a>. The unsubscribe link at the bottom of this email stops it as well, and takes effect right away.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+Your digest for [PERIOD_LABEL]
+
+Here is what is new in [PRODUCT_NAME] for [PERIOD_LABEL]. Three
+items are below. Everything else from the period is in the archive.
+
+Numbers for [PERIOD_LABEL]
+
+[METRIC_1_LABEL]: [METRIC_1_VALUE]
+[METRIC_2_LABEL]: [METRIC_2_VALUE]
+[METRIC_3_LABEL]: [METRIC_3_VALUE]
+
+If your mail client cuts this message short, you can read the full
+Read the full archive on the web:
+
+[ALL_ITEMS_URL]
+
+[ITEM_1_TITLE]
+
+[ITEM_1_SUMMARY]
+
+[ITEM_1_URL]
+
+[ITEM_2_TITLE]
+
+[ITEM_2_SUMMARY]
+
+[ITEM_2_URL]
+
+[ITEM_3_TITLE]
+
+[ITEM_3_SUMMARY]
+
+[ITEM_3_URL]
+
+Open the full archive:
+
+[ALL_ITEMS_URL]
+
+This digest arrives on a schedule. To get it less often, more
+often, or not at all, open your email settings:
+
+[SECONDARY_URL]
+
+The unsubscribe link at the bottom of this email stops it as well,
+and takes effect right away.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

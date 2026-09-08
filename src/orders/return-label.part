@@ -1,0 +1,184 @@
+--- meta
+title: Your [PRODUCT_NAME] return is approved
+aria: Your [PRODUCT_NAME] return is approved
+preheader: The label is ready to print, and the parcel is due back at a carrier point.
+subject: Your [PRODUCT_NAME] return is approved
+footer: transactional
+reason: You are receiving this email because a return was approved on order [ORDER_NUMBER], placed with the [PRODUCT_NAME] account registered to [EMAIL_ADDRESS].
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Your return is approved</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">We approved the return on order [ORDER_NUMBER]. Print your return label, send the items back by [RETURN_DEADLINE], and we refund [CURRENCY]&nbsp;[REFUND_AMOUNT] when the parcel reaches us.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Return details</caption>
+<tbody>
+<tr>
+<th class="tot-label" scope="row" align="left" width="45%"
+    style="width:45%;padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Order number</th>
+<td class="tot-grand-value" align="right" width="55%"
+    style="width:55%;padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ORDER_NUMBER]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Return deadline</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[RETURN_DEADLINE]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Refund amount when received</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CURRENCY]&nbsp;[REFUND_AMOUNT]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:32px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="btn"
+   href="[RETURN_URL]"
+   style="background-color:#1e40af;border:1px solid #1e40af;border-radius:6px;color:#ffffff;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#1e40af;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->Print your return label<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the button above does not work, copy and paste this address into your browser:<br>
+<a class="link" href="[RETURN_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[RETURN_URL]</a></p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">What to do next:</p>
+<ol style="padding:0;margin:0;list-style-type:decimal;">
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Pack the items in the box they arrived in, or any box that fits.</li>
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Include everything that came with them, such as cables, manuals and accessories.</li>
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Attach the label to the outside of the box, and cover any old label.</li>
+<li class="t-pri sm-text" style="margin:0 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Drop the parcel at a carrier point on or before [RETURN_DEADLINE].</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Items on this return</caption>
+<thead>
+<tr>
+<th class="th" scope="col" align="left" width="60%"
+    style="width:60%;padding:8px 8px 8px 0;text-align:left;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Item</th>
+<th class="th" scope="col" align="right" width="15%"
+    style="width:15%;padding:8px 8px;text-align:right;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Qty</th>
+<th class="th" scope="col" align="right" width="25%"
+    style="width:25%;padding:8px 0 8px 8px;text-align:right;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Refund</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="td" scope="row" align="left"
+    style="padding:12px 8px 12px 0;text-align:left;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#1a1a1a;">[ITEM_1_NAME]<br><span class="t-sec" style="font-size:13px;line-height:20px;color:#4a4a4a;">[ITEM_1_VARIANT]</span></th>
+<td class="td-num" align="right"
+    style="padding:12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ITEM_1_QTY]</td>
+<td class="td-num" align="right"
+    style="padding:12px 0 12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CURRENCY]&nbsp;[ITEM_1_AMOUNT]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table class="panel" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fdf6e3"
+       style="width:100%;background-color:#fdf6e3;border-left:4px solid #a16207;border-radius:4px;">
+<tr>
+<td class="panel-text"
+    style="padding:16px 20px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:24px;mso-line-height-rule:exactly;color:#3f2d05;background-color:#fdf6e3;"><strong>Important:</strong> The label stops working after [RETURN_DEADLINE]. A parcel sent after that date comes back to you, and we cannot refund the order. If you need more time, write to us before the deadline.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">When the parcel reaches us we check the items, then refund [CURRENCY]&nbsp;[REFUND_AMOUNT] to your [REFUND_METHOD]. The money takes [REFUND_DAYS] to reach you after we send it.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If a line on this return is wrong, or the label will not print, reply to this email, or write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a>. A real person reads every message.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+Your return is approved
+
+We approved the return on order [ORDER_NUMBER]. Print your return
+label, send the items back by [RETURN_DEADLINE], and we refund
+[CURRENCY] [REFUND_AMOUNT] when the parcel reaches us.
+
+Return details
+
+Order number: [ORDER_NUMBER]
+Return deadline: [RETURN_DEADLINE]
+Refund amount when received: [CURRENCY] [REFUND_AMOUNT]
+
+Print your return label:
+
+[RETURN_URL]
+
+What to do next:
+
+1. Pack the items in the box they arrived in, or any box that fits.
+2. Include everything that came with them, such as cables,
+manuals and accessories.
+3. Attach the label to the outside of the box, and cover any old label.
+4. Drop the parcel at a carrier point on or before [RETURN_DEADLINE].
+
+Items on this return
+
+Item: [ITEM_1_NAME]
+[ITEM_1_VARIANT]
+Qty: [ITEM_1_QTY]
+Refund: [CURRENCY] [ITEM_1_AMOUNT]
+
+Important: The label stops working after [RETURN_DEADLINE]. A
+parcel sent after that date comes back to you, and we cannot
+refund the order. If you need more time, write to us before the
+deadline.
+
+When the parcel reaches us we check the items, then refund
+[CURRENCY] [REFUND_AMOUNT] to your [REFUND_METHOD]. The money
+takes [REFUND_DAYS] to reach you after we send it.
+
+If a line on this return is wrong, or the label will not print,
+reply to this email, or write to [SUPPORT_EMAIL]. A real person
+reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

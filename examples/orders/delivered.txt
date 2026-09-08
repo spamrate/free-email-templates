@@ -1,0 +1,52 @@
+Left at the address on the order. If the parcel is not there, here is
+what to do.
+
+Your order was delivered
+
+UPS recorded order FW-10023 as delivered at
+10:42 on 11 September 2026. It was left at the address below.
+
+Delivery details
+
+Order number: FW-10023
+Delivered: 10:42 on 11 September 2026
+Carrier: UPS
+
+Delivered to
+
+Priya Raman
+Brightpath Mechanical
+1420 5th Avenue, Suite 300
+Seattle, WA 98101
+United States
+
+Important: If you do not have the parcel, check with your
+neighbours and around the property, including any porch, side
+entrance or bin store. A carrier sometimes marks a parcel as
+delivered a little before it arrives. If it has not appeared within
+15 September 2026, write to support@fernway.example and we will put it
+right.
+
+View your order:
+
+https://fernway.example/orders/10023
+
+If you have a question about this order, reply to this email. A
+real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because order FW-10023, placed with
+Fernway, was reported as delivered.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

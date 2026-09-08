@@ -1,0 +1,51 @@
+The exact date, what happens then, and how to cancel with no charge.
+
+Your trial ends on 14 September 2026
+
+Your Fernway trial ends on 14 September 2026. On that date the
+Visa card ending in 4242 will be charged
+USD 588.00 for Crew, and your account stays open. If
+you do nothing, that is what happens.
+
+You can confirm the plan, change it, or cancel before that date.
+
+Your trial
+
+Trial ends: 14 September 2026
+Plan: Crew
+Amount: USD 588.00 per 7 Sep - 7 Oct 2026
+Payment method: Visa ending in 4242
+
+Confirm your plan:
+
+https://fernway.example/a/9f2a1c7e
+
+Important: If you do not want to continue, cancel before
+14 September 2026 and you will not be charged. You keep access to
+Fernway until that date.
+
+Cancel your trial:
+
+https://fernway.example/settings/security
+
+If anything here does not match what you expected, reply to this
+email, or write to support@fernway.example. A real person reads every
+message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because the Fernway account
+registered to priya@brightpath.example is on a trial that ends on
+14 September 2026.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

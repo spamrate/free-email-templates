@@ -1,0 +1,62 @@
+What changed, the date it takes effect, and what to do if you disagree.
+
+Changes to the Fernway terms of service
+
+We are changing the terms of service that govern your Fernway account.
+What is changing: how long we keep job records, and who we name as
+sub-processors. The new terms take effect on 15 October 2026 and apply
+to your account from that date.
+
+In plain words, these are the changes that affect you:
+
+- Add the crew who will be on site
+- Set the arrival window
+- Attach the site access notes
+
+That list is a summary. It leaves things out, and it is not the
+agreement. The full terms of service govern your account, and where
+the summary and the full terms differ, the full terms apply. Read
+them before 15 October 2026.
+
+Read the terms of service:
+
+https://fernway.example/terms
+
+If you do not agree
+
+You do not have to accept the new terms. If you do not want them to
+apply to you, stop using Fernway and close your account
+before 15 October 2026. Export your data first, because a closed
+account cannot be opened again.
+
+You can export your data and close the account in your account
+settings. If the account is still open on 15 October 2026, the new
+terms apply to it.
+
+Open account settings:
+
+https://fernway.example/settings/security
+
+This email is a notice about the terms that govern your account. It
+is not a marketing message, and there is nothing to unsubscribe
+from.
+
+If any part of this is unclear, reply to this email, or write to
+support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because priya@brightpath.example has a
+Fernway account, and these terms govern it.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

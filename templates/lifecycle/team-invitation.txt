@@ -1,0 +1,50 @@
+Here is who sent this, what it is for, and what happens if you ignore
+it.
+
+[INVITER_NAME] invited you to join [TEAM_NAME]
+
+[INVITER_NAME] ([INVITER_EMAIL]) invited you to join the team
+[TEAM_NAME] on [PRODUCT_NAME], with the role [ROLE_NAME]. Accepting
+adds [EMAIL_ADDRESS] to that team.
+
+Invitation details
+
+Invited by: [INVITER_NAME]
+Team: [TEAM_NAME]
+Your role: [ROLE_NAME]
+
+Accept the invitation:
+
+[CTA_URL]
+
+This invitation expires at [EXPIRY_ABSOLUTE], which is
+[EXPIRY_RELATIVE] after it was sent. After that the link stops
+working, and [INVITER_NAME] would have to send a new one.
+
+If you do not want to join, there is nothing to do. The invitation
+expires on its own, and you are not added to [TEAM_NAME]. If you
+would rather not be invited again, tell [INVITER_EMAIL] you are not
+interested.
+
+Not sure whether this invitation is genuine? Reply to this email, or
+write to [SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because [INVITER_NAME] entered
+[EMAIL_ADDRESS] when inviting people to [TEAM_NAME] on [PRODUCT_NAME].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+
+Unsubscribe:
+
+[UNSUBSCRIBE_URL]

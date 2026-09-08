@@ -1,0 +1,53 @@
+If this was you, nothing is wrong. If it was not, secure the account.
+
+New sign-in to your Fernway account
+
+Someone signed in to your Fernway account from a device or a
+location we have not seen before. The sign-in was successful. Here
+is what we recorded.
+
+Sign-in details
+
+Account: priya@brightpath.example
+When: 14:05 UTC on 7 September 2026
+Device: Chrome on macOS
+Location: Portland, Oregon, United States
+IP address: 203.0.113.42
+
+The location is approximate. We work it out from the IP address, so
+it can point at a nearby city, at your internet provider, or at a
+VPN server in another country. A location that looks wrong is not
+proof on its own that the sign-in was wrong.
+
+If this was you, there is nothing to do. You can delete this email.
+
+Important: If this was not you, someone else can reach your account.
+Secure it now: change the password, sign out every other device, and
+turn on two-step verification.
+
+Secure your account:
+
+https://fernway.example/settings/security
+
+Fernway will never ask you for your password, and will never
+ask you to send it in a reply to this email.
+
+Not sure what this sign-in was? Reply to this email, or write to
+support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because someone signed in to the
+Fernway account registered to priya@brightpath.example.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

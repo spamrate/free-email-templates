@@ -1,0 +1,57 @@
+What was cancelled, what happens to the money, and where to ask about
+it.
+
+Your order is cancelled
+
+Order [ORDER_NUMBER] is cancelled. The reason on record is
+[CANCEL_REASON]. Nothing from this order will be sent, and your
+payment method will not be charged for it.
+
+Details of the cancellation
+
+Order number: [ORDER_NUMBER]
+Cancelled on: [EVENT_TIME]
+Reason: [CANCEL_REASON]
+
+If you were charged for this order, [CURRENCY] [REFUND_AMOUNT]
+goes back to you by [REFUND_METHOD]. Allow [REFUND_DAYS] for it to
+appear, because your bank sets the timing once we send the money.
+
+If the payment was only held and never taken, no money left your
+account and there is nothing to refund. The hold is released and
+drops off your statement within [REFUND_DAYS].
+
+Items cancelled from order [ORDER_NUMBER]
+
+Item: [ITEM_1_NAME]
+[ITEM_1_VARIANT]
+Qty: [ITEM_1_QTY]
+Amount: [CURRENCY] [ITEM_1_AMOUNT]
+
+Nothing needs to be returned. To buy these items again, place a new
+order at the price in effect at that time.
+
+View this order:
+
+[CTA_URL]
+
+If you did not ask for this cancellation, or the refund has not
+arrived after [REFUND_DAYS], reply to this email, or write to
+[SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because order [ORDER_NUMBER], placed on the
+[PRODUCT_NAME] account registered to [EMAIL_ADDRESS], was cancelled.
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

@@ -1,0 +1,81 @@
+What was taken, what was not taken, and the four steps to take today.
+
+Someone accessed your personal data at Fernway
+
+What happened: An unauthorised party accessed a database backup held by
+one of our suppliers. It started on 2 September 2026. We discovered it
+on 5 September 2026. Your Fernway account is one of the accounts it
+reached, and some of your personal data was in it.
+
+What was and was not involved
+
+Data involved: Name, work email address, and hashed password
+Data not involved: Payment card numbers, bank details, and customer site addresses
+
+What we list as not involved is not a guess. It is the data we have
+checked and confirmed stayed out of this breach. If that changes, or
+if we find that more was involved, we will send you another email
+and say so on the breach updates page.
+
+What to do now
+
+1. Change your Fernway password. The link below opens the
+page where you set a new one.
+
+2. If you used that same password on any other site, change it on
+those sites as well.
+
+3. Turn on two-step verification for your Fernway account,
+so that a password on its own is not enough to sign in.
+
+4. Read through your recent account activity, and write to us about
+anything you do not recognise.
+
+Reset your password:
+
+https://fernway.example/a/9f2a1c7e
+
+Important: Fake messages follow a breach, and they use the stolen
+data to sound real. Fernway will never ask you for your
+password, for a payment, or for a code, by email or by phone. A
+message that asks you for any of those is not from us.
+
+What we have done
+
+We closed the way in on 5 September 2026. We ended every
+signed-in session on the accounts that were reached, so a stolen
+session cannot be used. An outside security firm is now going
+through our systems and our logs with us, and we have reported this
+breach to the data protection authority that regulates us.
+
+That work is not finished. We will publish what we learn, including
+anything that makes this worse than it looks today.
+
+Your data was in our care and we did not keep it safe. That is our
+failure, and we are sorry for it.
+
+Everything we know is on the breach updates page, and we add to
+that page as the work goes on:
+
+https://fernway.example/security/2026-09
+
+For a question about your own account and your own data, write to
+support@fernway.example, or reply to this email. A real person reads
+every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because priya@brightpath.example is the
+address on a Fernway account whose data was in this breach.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

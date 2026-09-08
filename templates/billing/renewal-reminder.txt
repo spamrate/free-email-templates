@@ -1,0 +1,48 @@
+The date, the amount, the card, and how to cancel before the charge.
+
+Your subscription renews on [NEXT_CHARGE_DATE]
+
+Your [PRODUCT_NAME] subscription renews automatically on
+[NEXT_CHARGE_DATE]. On that date the [CARD_BRAND] card ending in
+[CARD_LAST4] will be charged [CURRENCY] [AMOUNT] for the next
+[BILLING_PERIOD]. No action is needed if you want the subscription
+to continue.
+
+Your subscription
+
+Plan: [PLAN_NAME]
+Renews on: [NEXT_CHARGE_DATE]
+Amount: [CURRENCY] [AMOUNT]
+Payment method: [CARD_BRAND] ending in [CARD_LAST4]
+Billing period: [BILLING_PERIOD]
+
+Important: To stop the renewal, cancel before [NEXT_CHARGE_DATE].
+Open your subscription settings with the button below, then end the
+subscription there. You will not be charged [CURRENCY] [AMOUNT],
+and you keep access to [PRODUCT_NAME] until [NEXT_CHARGE_DATE].
+
+Manage your subscription:
+
+[SECONDARY_URL]
+
+If anything here does not match what you expected, reply to this
+email, or write to [SUPPORT_EMAIL]. A real person reads every
+message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because the [PRODUCT_NAME] subscription on
+the account registered to [EMAIL_ADDRESS] renews automatically on
+[NEXT_CHARGE_DATE].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

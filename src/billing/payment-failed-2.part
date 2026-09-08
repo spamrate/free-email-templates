@@ -1,0 +1,139 @@
+--- meta
+title: Second notice: your payment failed
+aria: Second notice: your payment failed
+preheader: The payment has still not gone through. Your service is not affected yet.
+subject: Second notice: your payment failed
+footer: transactional
+reason: You are receiving this email because a payment for the [PRODUCT_NAME] subscription on the account registered to [EMAIL_ADDRESS] has not gone through.
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Second notice: your payment failed</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">The payment for your [PRODUCT_NAME] subscription has still not gone through. This is the second notice. Your service is running as normal for now.</p>
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Most failed payments are a card that has expired or been replaced. Updating the card on file fixes it, and we try the payment again on [RETRY_DATE].</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Details of the payment</caption>
+<tbody>
+<tr>
+<th class="tot-label" scope="row" align="left" width="45%"
+    style="width:45%;padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Amount</th>
+<td class="tot-grand-value" align="right" width="55%"
+    style="width:55%;padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CURRENCY]&nbsp;[AMOUNT]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Plan</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[PLAN_NAME]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Payment method</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CARD_BRAND] ending [CARD_LAST4]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Next attempt</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[RETRY_DATE]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table class="panel" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fdf6e3"
+       style="width:100%;background-color:#fdf6e3;border-left:4px solid #a16207;border-radius:4px;">
+<tr>
+<td class="panel-text"
+    style="padding:16px 20px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:24px;mso-line-height-rule:exactly;color:#3f2d05;background-color:#fdf6e3;"><strong>Important:</strong> If the payment has not gone through by <strong>[GRACE_END_DATE]</strong>, the subscription is paused on that date. [PRODUCT_NAME] then becomes read-only: you can still sign in, read and export your data, and nothing is deleted.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:32px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="btn"
+   href="[CTA_URL]"
+   style="background-color:#1e40af;border:1px solid #1e40af;border-radius:6px;color:#ffffff;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#1e40af;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->Update payment method<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the button above does not work, copy and paste this address into your browser:<br>
+<a class="link" href="[CTA_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[CTA_URL]</a></p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">If you have already updated the card, no further action is needed. The attempt on [RETRY_DATE] will use the new card.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the amount or the card above is wrong, reply to this email, or write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a>. A real person reads every message.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+Second notice: your payment failed
+
+The payment for your [PRODUCT_NAME] subscription has still not gone
+through. This is the second notice. Your service is running as
+normal for now.
+
+Most failed payments are a card that has expired or been replaced.
+Updating the card on file fixes it, and we try the payment again on
+[RETRY_DATE].
+
+Details of the payment
+
+Amount: [CURRENCY] [AMOUNT]
+Plan: [PLAN_NAME]
+Payment method: [CARD_BRAND] ending [CARD_LAST4]
+Next attempt: [RETRY_DATE]
+
+Important: If the payment has not gone through by [GRACE_END_DATE],
+the subscription is paused on that date. [PRODUCT_NAME] then
+becomes read-only: you can still sign in, read and export your
+data, and nothing is deleted.
+
+Update payment method:
+
+[CTA_URL]
+
+If you have already updated the card, no further action is needed.
+The attempt on [RETRY_DATE] will use the new card.
+
+If the amount or the card above is wrong, reply to this email, or
+write to [SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

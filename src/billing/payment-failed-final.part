@@ -1,0 +1,175 @@
+--- meta
+title: Final notice: your subscription pauses
+aria: Final notice: your subscription pauses
+preheader: Your data is kept either way. Here is what happens on [GRACE_END_DATE].
+subject: Final notice: your subscription pauses
+footer: transactional
+reason: You are receiving this email because the payment for the [PRODUCT_NAME] subscription on the account registered to [EMAIL_ADDRESS] has not gone through.
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Final notice before your subscription pauses</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">This is the last message about the payment for [PRODUCT_NAME]. The charge of [CURRENCY]&nbsp;[AMOUNT] for [PLAN_NAME] did not go through, and we have stopped retrying it.</p>
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">The most common reason is a card that expired since you set it up. Updating your payment method settles the amount and leaves everything as it is.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Details of the payment</caption>
+<tbody>
+<tr>
+<th class="tot-label" scope="row" align="left" width="45%"
+    style="width:45%;padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Amount</th>
+<td class="tot-grand-value" align="right" width="55%"
+    style="width:55%;padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CURRENCY]&nbsp;[AMOUNT]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Plan</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[PLAN_NAME]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Payment method</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CARD_BRAND] ending [CARD_LAST4]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Invoice</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[INVOICE_NUMBER]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Last attempt</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[RETRY_DATE]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table class="panel" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fdf6e3"
+       style="width:100%;background-color:#fdf6e3;border-left:4px solid #a16207;border-radius:4px;">
+<tr>
+<td class="panel-text"
+    style="padding:16px 20px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:24px;mso-line-height-rule:exactly;color:#3f2d05;background-color:#fdf6e3;"><strong>Important:</strong> On [GRACE_END_DATE] the subscription is paused. Your data is not deleted, and you can still sign in after that date.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">After [GRACE_END_DATE], until the payment method is updated:</p>
+<ul style="padding:0;margin:0;list-style-type:disc;">
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[PRODUCT_NAME] becomes read-only for all [SEAT_COUNT] seats.</li>
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Scheduled work, integrations and API keys stop running.</li>
+<li class="t-pri sm-text" style="margin:0 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Sign-in, reading and exporting your data keep working.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Nothing is deleted. Your data is kept in full for [RETENTION_PERIOD] after [GRACE_END_DATE], until <strong>[RETENTION_END_DATE]</strong>. Update the payment method before that date and the account returns to [PLAN_NAME] with everything as you left it. After that date the data is deleted and cannot be recovered.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:32px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="btn"
+   href="[CTA_URL]"
+   style="background-color:#1e40af;border:1px solid #1e40af;border-radius:6px;color:#ffffff;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#1e40af;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->Update payment method<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the button above does not work, copy and paste this address into your browser:<br>
+<a class="link" href="[CTA_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[CTA_URL]</a></p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">If you would rather stop paying for [PRODUCT_NAME], you do not have to do anything &mdash; the subscription pauses on its own on [GRACE_END_DATE]. If you want it cancelled outright, or moved to a smaller plan, write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a> and we will take care of it.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If any of these details look wrong, reply to this email, or write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a>. A real person reads every message.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+Final notice before your subscription pauses
+
+This is the last message about the payment for [PRODUCT_NAME]. The
+charge of [CURRENCY] [AMOUNT] for [PLAN_NAME] did not go through,
+and we have stopped retrying it.
+
+The most common reason is a card that expired since you set it up.
+Updating your payment method settles the amount and leaves
+everything as it is.
+
+Details of the payment
+
+Amount: [CURRENCY] [AMOUNT]
+Plan: [PLAN_NAME]
+Payment method: [CARD_BRAND] ending [CARD_LAST4]
+Invoice: [INVOICE_NUMBER]
+Last attempt: [RETRY_DATE]
+
+Important: On [GRACE_END_DATE] the subscription is paused. Your
+data is not deleted, and you can still sign in after that date.
+
+After [GRACE_END_DATE], until the payment method is updated:
+
+- [PRODUCT_NAME] becomes read-only for all [SEAT_COUNT] seats.
+- Scheduled work, integrations and API keys stop running.
+- Sign-in, reading and exporting your data keep working.
+
+Nothing is deleted. Your data is kept in full for
+[RETENTION_PERIOD] after [GRACE_END_DATE], until [RETENTION_END_DATE].
+Update the payment method before that date and the account returns
+to [PLAN_NAME] with everything as you left it. After that date the
+data is deleted and cannot be recovered.
+
+Update payment method:
+
+[CTA_URL]
+
+If you would rather stop paying for [PRODUCT_NAME], you do not have
+to do anything - the subscription pauses on its own on
+[GRACE_END_DATE]. If you want it cancelled outright, or moved to a
+smaller plan, write to [SUPPORT_EMAIL] and we will take care of it.
+
+If any of these details look wrong, reply to this email, or write
+to [SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

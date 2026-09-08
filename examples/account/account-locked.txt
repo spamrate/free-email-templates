@@ -1,0 +1,52 @@
+Nothing has been deleted. Verify that it is you and the lock clears.
+
+Your account is locked
+
+The Fernway account registered to priya@brightpath.example was locked at
+14:05 UTC on 7 September 2026. We lock an account when the activity on
+it does not match the person who owns it. Nothing in the account has
+been changed or deleted.
+
+To use the account again, verify that it is you. That clears the
+lock.
+
+Details of the lock
+
+Account: priya@brightpath.example
+When: 14:05 UTC on 7 September 2026
+Reason: Too many failed sign-in attempts
+
+Unlock your account:
+
+https://fernway.example/a/9f2a1c7e
+
+This link expires at 14:35 UTC on 7 September 2026 - 30 minutes after it
+was sent.
+
+If this was not you, someone else may be trying to get into your
+account. Unlock the account, then change your password to one you
+have not used anywhere else.
+
+Important: Fernway will never ask you for your password or
+for a code to unlock an account. If someone asks you for either,
+they are not us.
+
+If you cannot get back in, reply to this email, or write to
+support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because the Fernway account registered to
+priya@brightpath.example was locked at 14:05 UTC on 7 September 2026.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

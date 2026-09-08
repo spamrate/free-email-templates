@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free Email Templates &mdash; Preview</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f4f4f5;
+    --panel: #ffffff;
+    --border: #e4e4e7;
+    --control-border: #6b6b70;
+    --text: #1a1a1a;
+    --muted: #57575c;
+    --accent: #1e40af;
+    --accent-text: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111111;
+      --panel: #1c1c1e;
+      --border: #333336;
+      --control-border: #8a8a90;
+      --text: #ededed;
+      --muted: #a1a1a6;
+      --accent: #2b5cea;
+      --accent-text: #ffffff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  header {
+    padding: 16px 20px;
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+    align-items: center;
+  }
+  h1 { font-size: 15px; margin: 0; font-weight: 700; }
+  h1 span { color: var(--muted); font-weight: 400; }
+  .group { display: flex; align-items: center; gap: 6px; }
+  .group > label, .group > span { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+  select, button {
+    font: inherit;
+    color: var(--text);
+    background: var(--bg);
+    border: 1px solid var(--control-border);
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  button[aria-pressed="true"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--accent-text);
+  }
+  button:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  main { padding: 24px 20px 48px; }
+  .stage { margin: 0 auto; transition: max-width .15s ease; }
+  /* 100000px stands in for 'none' so the transition can interpolate */
+  iframe {
+    display: block;
+    width: 100%;
+    height: 78vh;
+    min-height: 520px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #ffffff;
+  }
+  .note {
+    max-width: 760px;
+    margin: 0 auto 20px;
+    padding: 12px 14px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--panel);
+    color: var(--muted);
+    font-size: 13px;
+  }
+  .note strong { color: var(--text); }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 12px;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 1px 5px;
+  }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Free Email Templates <span>&mdash; local preview</span></h1>
+
+  <div class="group">
+    <label for="tpl">Template</label>
+    <select id="tpl">
+<!-- generated:options -->
+      <optgroup label="account">
+        <option value="templates/account/account-locked.html" data-example="1">account-locked</option>
+        <option value="templates/account/email-change-new.html" data-example="1">email-change-new</option>
+        <option value="templates/account/email-change-old.html" data-example="1">email-change-old</option>
+        <option value="templates/account/magic-link.html" data-example="1">magic-link</option>
+        <option value="templates/account/new-device-signin.html" data-example="1">new-device-signin</option>
+        <option value="templates/account/otp-code.html" data-example="1">otp-code</option>
+        <option value="templates/account/password-changed.html" data-example="1">password-changed</option>
+        <option value="templates/account/password-reset.html" data-example="1">password-reset</option>
+        <option value="templates/account/verify-email.html" data-example="1">verify-email</option>
+      </optgroup>
+      <optgroup label="billing">
+        <option value="templates/billing/card-expiring.html" data-example="1">card-expiring</option>
+        <option value="templates/billing/payment-failed-1.html" data-example="1">payment-failed-1</option>
+        <option value="templates/billing/payment-failed-2.html" data-example="1">payment-failed-2</option>
+        <option value="templates/billing/payment-failed-final.html" data-example="1">payment-failed-final</option>
+        <option value="templates/billing/receipt.html" data-example="1">receipt</option>
+        <option value="templates/billing/renewal-reminder.html" data-example="1">renewal-reminder</option>
+        <option value="templates/billing/subscription-cancelled.html" data-example="1">subscription-cancelled</option>
+        <option value="templates/billing/trial-ending.html" data-example="1">trial-ending</option>
+      </optgroup>
+      <optgroup label="orders">
+        <option value="templates/orders/delivered.html" data-example="1">delivered</option>
+        <option value="templates/orders/order-cancelled.html" data-example="1">order-cancelled</option>
+        <option value="templates/orders/order-confirmation.html" data-example="1">order-confirmation</option>
+        <option value="templates/orders/refund-issued.html" data-example="1">refund-issued</option>
+        <option value="templates/orders/return-label.html" data-example="1">return-label</option>
+        <option value="templates/orders/shipped.html" data-example="1">shipped</option>
+      </optgroup>
+      <optgroup label="lifecycle">
+        <option value="templates/lifecycle/collaboration-notification.html" data-example="1">collaboration-notification</option>
+        <option value="templates/lifecycle/digest.html" data-example="1">digest</option>
+        <option value="templates/lifecycle/feature-announcement.html" data-example="1">feature-announcement</option>
+        <option value="templates/lifecycle/re-engagement.html" data-example="1">re-engagement</option>
+        <option value="templates/lifecycle/team-invitation.html" data-example="1">team-invitation</option>
+        <option value="templates/lifecycle/welcome.html" data-example="1">welcome</option>
+      </optgroup>
+      <optgroup label="ops">
+        <option value="templates/ops/incident-open.html" data-example="1">incident-open</option>
+        <option value="templates/ops/incident-resolved.html" data-example="1">incident-resolved</option>
+        <option value="templates/ops/quota-exceeded.html" data-example="1">quota-exceeded</option>
+        <option value="templates/ops/scheduled-maintenance.html" data-example="1">scheduled-maintenance</option>
+      </optgroup>
+      <optgroup label="consent">
+        <option value="templates/consent/data-breach.html" data-example="1">data-breach</option>
+        <option value="templates/consent/double-opt-in.html" data-example="1">double-opt-in</option>
+        <option value="templates/consent/dsar-acknowledgement.html" data-example="1">dsar-acknowledgement</option>
+        <option value="templates/consent/terms-change.html" data-example="1">terms-change</option>
+        <option value="templates/consent/unsubscribe-confirmed.html" data-example="1">unsubscribe-confirmed</option>
+      </optgroup>
+      <optgroup label="reference">
+        <option value="partials/components.html" data-example="0">components</option>
+      </optgroup>
+<!-- /generated:options -->
+    </select>
+  </div>
+
+  <div class="group" id="widths" role="group" aria-label="Preview width">
+    <span aria-hidden="true">Width</span>
+    <button type="button" data-w="375" aria-pressed="false">375</button>
+    <button type="button" data-w="480" aria-pressed="false">480</button>
+    <button type="button" data-w="640" aria-pressed="true">Desktop</button>
+    <button type="button" data-w="0" aria-pressed="false">Full</button>
+  </div>
+
+  <div class="group">
+    <button type="button" id="sample" aria-pressed="false">Sample data</button>
+  </div>
+</header>
+
+<main>
+  <p class="note" id="note"></p>
+  <div class="stage" id="stage" style="max-width:640px;">
+    <iframe id="frame" title="Email template preview" src="templates/account/account-locked.html"></iframe>
+  </div>
+</main>
+
+<script>
+(function () {
+  /* generated:sample */
+  var SAMPLE = {
+    '[ACTOR_NAME]': 'Marcus Lee',
+    '[AFFECTED_SCOPE]': 'Job dispatch and the mobile app',
+    '[ALL_ITEMS_URL]': 'https://fernway.example/activity',
+    '[AMOUNT]': '588.00',
+    '[BILLING_ADDRESS]': 'Brightpath Mechanical<br>PO Box 1184<br>Seattle, WA 98111<br>United States',
+    '[BILLING_PERIOD]': '7 Sep - 7 Oct 2026',
+    '[BREACH_INFO_URL]': 'https://fernway.example/security/2026-09',
+    '[CALLOUT_TEXT]': 'We will never ask you for this code by phone or email.',
+    '[CANCEL_REASON]': 'The vehicle charging dock is out of stock',
+    '[CARD_BRAND]': 'Visa',
+    '[CARD_EXPIRY]': '10/2026',
+    '[CARD_LAST4]': '4242',
+    '[CARRIER]': 'UPS',
+    '[CHANGE_DEADLINE]': '18:00 UTC on 8 September 2026',
+    '[CHANGE_SUMMARY]': 'how long we keep job records, and who we name as sub-processors',
+    '[COMMENT_EXCERPT]': 'Access is through the loading bay, not the front desk. The key is with building security.',
+    '[COMPANY_ADDRESS]': '1100 Alder Street, Suite 210, Portland, OR 97205, USA',
+    '[COMPANY_LEGAL_NAME]': 'Fernway Technologies Inc.',
+    '[COMPANY_NAME]': 'Fernway',
+    '[COMPANY_URL]': 'https://fernway.example',
+    '[CTA_LABEL]': 'Finish setting up',
+    '[CTA_URL]': 'https://fernway.example/a/9f2a1c7e',
+    '[CURRENCY]': 'USD',
+    '[DATA_CATEGORIES]': 'Name, work email address, and hashed password',
+    '[DATA_NOT_INVOLVED]': 'Payment card numbers, bank details, and customer site addresses',
+    '[DELIVERED_TIME]': '10:42 on 11 September 2026',
+    '[DELIVERY_ESTIMATE]': '11-13 September 2026',
+    '[DELIVERY_GRACE]': '15 September 2026',
+    '[EFFECTIVE_DATE]': '15 October 2026',
+    '[EMAIL_ADDRESS]': 'priya@brightpath.example',
+    '[EVENT_DEVICE]': 'Chrome on macOS',
+    '[EVENT_IP]': '203.0.113.42',
+    '[EVENT_LOCATION]': 'Portland, Oregon, United States',
+    '[EVENT_TIME]': '14:05 UTC on 7 September 2026',
+    '[EXPIRY_ABSOLUTE]': '14:35 UTC on 7 September 2026',
+    '[EXPIRY_RELATIVE]': '30 minutes',
+    '[FEATURE_NAME]': 'Saved routes',
+    '[FEATURE_REPLACES]': 'rebuilding the same route every Monday morning',
+    '[FEATURE_SUMMARY]': 'A run of jobs you order once and reuse every week.',
+    '[FEATURE_USE_1]': 'Keep a standing route for each crew and swap jobs in and out',
+    '[FEATURE_USE_2]': 'Hand a route to a stand-in without explaining the order',
+    '[FEATURE_USE_3]': 'Reuse last week without setting it up again',
+    '[FIRST_NAME]': 'Priya',
+    '[GRACE_END_DATE]': '21 September 2026',
+    '[INCIDENT_CAUSE]': 'A configuration change removed a database connection limit, and the pool ran out.',
+    '[INCIDENT_CONTAINED]': '5 September 2026',
+    '[INCIDENT_DATE]': '2 September 2026',
+    '[INCIDENT_DISCOVERED]': '5 September 2026',
+    '[INCIDENT_DURATION]': '1 hour 7 minutes',
+    '[INCIDENT_STATUS]': 'Investigating',
+    '[INCIDENT_SUMMARY]': 'An unauthorised party accessed a database backup held by one of our suppliers.',
+    '[INVITER_EMAIL]': 'marcus@brightpath.example',
+    '[INVITER_NAME]': 'Marcus Lee',
+    '[INVOICE_DATE]': '7 September 2026',
+    '[INVOICE_NUMBER]': 'FW-2026-04417',
+    '[ITEM_1_AMOUNT]': '498.00',
+    '[ITEM_1_NAME]': 'Fernway RT-2 rugged scanner',
+    '[ITEM_1_QTY]': '2',
+    '[ITEM_1_SUMMARY]': 'It moved from Thursday to Tuesday morning.',
+    '[ITEM_1_TITLE]': 'Marcus reassigned the Kensington boiler job to you',
+    '[ITEM_1_URL]': 'https://fernway.example/jobs/8841',
+    '[ITEM_1_VARIANT]': 'Standard grip / 2-year warranty',
+    '[ITEM_2_AMOUNT]': '90.00',
+    '[ITEM_2_NAME]': 'RT-2 vehicle charging dock',
+    '[ITEM_2_QTY]': '2',
+    '[ITEM_2_SUMMARY]': 'They need a signature before they can be invoiced.',
+    '[ITEM_2_TITLE]': 'Three jobs closed without a signature this week',
+    '[ITEM_2_URL]': 'https://fernway.example/reports/unsigned',
+    '[ITEM_2_VARIANT]': '12V, hardwired',
+    '[ITEM_3_SUMMARY]': 'Eleven items changed; the rest are unchanged.',
+    '[ITEM_3_TITLE]': 'The Q4 parts price list is ready to review',
+    '[ITEM_3_URL]': 'https://fernway.example/parts/q4-pricing',
+    '[ITEM_SUMMARY]': 'It moved from Thursday to Tuesday morning.',
+    '[ITEM_TITLE]': 'Marcus reassigned the Kensington boiler job to you',
+    '[ITEM_URL]': 'https://fernway.example/jobs/8841',
+    '[LAST_ACTIVE_DATE]': '3 May 2026',
+    '[LIST_ITEM_1]': 'Add the crew who will be on site',
+    '[LIST_ITEM_2]': 'Set the arrival window',
+    '[LIST_ITEM_3]': 'Attach the site access notes',
+    '[LIST_NAME]': 'the Fernway product newsletter',
+    '[LOCK_REASON]': 'Too many failed sign-in attempts',
+    '[MAINTENANCE_DURATION]': 'up to 2 hours',
+    '[MAINTENANCE_END]': '04:00 UTC on 14 September 2026',
+    '[MAINTENANCE_START]': '02:00 UTC on 14 September 2026',
+    '[METRIC_1_LABEL]': 'Jobs completed',
+    '[METRIC_1_VALUE]': '214',
+    '[METRIC_2_LABEL]': 'First-visit fixes',
+    '[METRIC_2_VALUE]': '86%',
+    '[METRIC_3_LABEL]': 'Crew members active',
+    '[METRIC_3_VALUE]': '12',
+    '[NEW_EMAIL_ADDRESS]': 'priya.raman@brightpath.example',
+    '[NEXT_CHARGE_DATE]': '7 October 2026',
+    '[NEXT_UPDATE_TIME]': '15:30 UTC on 7 September 2026',
+    '[OBJECT_NAME]': 'the Kensington boiler job',
+    '[OLD_EMAIL_ADDRESS]': 'priya@brightpath.example',
+    '[ORDER_DATE]': '7 September 2026',
+    '[ORDER_NUMBER]': 'FW-10023',
+    '[ORDER_URL]': 'https://fernway.example/orders/10023',
+    '[OTP_CODE]': '482913',
+    '[PAYMENT_METHOD]': 'Visa ending 4242',
+    '[PERIOD_LABEL]': 'September',
+    '[PLAN_NAME]': 'Crew',
+    '[PRIVACY_URL]': 'https://fernway.example/privacy',
+    '[PRODUCT_NAME]': 'Fernway',
+    '[QUOTA_CONSEQUENCE]': 'Further requests return a 429 until the period resets',
+    '[QUOTA_LIMIT]': '500,000',
+    '[QUOTA_NAME]': 'API requests',
+    '[QUOTA_RESET_DATE]': '1 October 2026',
+    '[QUOTA_STOPPED]': 'New API requests and scheduled exports',
+    '[QUOTA_UNAFFECTED]': 'The web app, the mobile app, and everything already stored',
+    '[QUOTA_USED]': '512,400',
+    '[REFUND_AMOUNT]': '648.27',
+    '[REFUND_DAYS]': '5 to 10 business days',
+    '[REFUND_METHOD]': 'Visa ending 4242',
+    '[REQUEST_REFERENCE]': 'DSAR-2026-0431',
+    '[REQUEST_TYPE]': 'A copy of your personal data',
+    '[RESOLVED_TIME]': '15:12 UTC on 7 September 2026',
+    '[RESPONSE_DUE_DATE]': '7 October 2026',
+    '[RETENTION_END_DATE]': '20 December 2026',
+    '[RETENTION_PERIOD]': '90 days',
+    '[RETRY_DATE]': '10 September 2026',
+    '[RETURN_DEADLINE]': '5 October 2026',
+    '[RETURN_URL]': 'https://fernway.example/returns/10023/label.pdf',
+    '[ROLE_NAME]': 'Dispatcher',
+    '[SEAT_COUNT]': '12',
+    '[SECONDARY_LABEL]': 'Track shipment',
+    '[SECONDARY_URL]': 'https://fernway.example/settings/security',
+    '[SEND_FREQUENCY]': 'about twice a month',
+    '[SHIPPING]': '0.00',
+    '[SHIPPING_ADDRESS]': 'Priya Raman<br>Brightpath Mechanical<br>1420 5th Avenue, Suite 300<br>Seattle, WA 98101<br>United States',
+    '[SIGNOFF_NAME]': 'Maya',
+    '[SIGNUP_DATE]': '7 September 2026',
+    '[STATUS_PAGE_URL]': 'https://status.fernway.example',
+    '[SUBTOTAL]': '588.00',
+    '[SUPPORT_EMAIL]': 'support@fernway.example',
+    '[TAX]': '60.27',
+    '[TEAM_NAME]': 'Brightpath Mechanical',
+    '[TERMS_URL]': 'https://fernway.example/terms',
+    '[TOTAL]': '648.27',
+    '[TRACKING_NUMBER]': '1Z999AA10123456784',
+    '[TRACKING_URL]': 'https://fernway.example/track/1Z999AA10123456784',
+    '[TRIAL_END_DATE]': '14 September 2026',
+    '[UNSUBSCRIBE_URL]': 'https://fernway.example/u/6b41f0a9',
+    '[UNSUB_PROCESSING_PERIOD]': '48 hours',
+    '[WORKAROUND_TEXT]': 'There is no workaround. Jobs already downloaded to a device still open offline.'
+  };
+/* /generated:sample */
+
+  var frame = document.getElementById('frame');
+  var stage = document.getElementById('stage');
+  var tpl = document.getElementById('tpl');
+  var sampleBtn = document.getElementById('sample');
+  var note = document.getElementById('note');
+
+  var THEME_NOTE = ' This iframe follows your OS light/dark setting, so it shows the palette ' +
+    'that Apple Mail, Outlook and Fastmail render. It cannot show what Gmail or Yahoo do, ' +
+    'because they force their own inversion instead of honouring ' +
+    '<code>prefers-color-scheme</code>. <strong>Desktop</strong> is 640px so the email clears ' +
+    'its own 600px breakpoint.';
+
+  function selected() {
+    return tpl.options[tpl.selectedIndex];
+  }
+
+  function hasExample() {
+    var o = selected();
+    return !!o && o.getAttribute('data-example') === '1';
+  }
+
+  function showingSample() {
+    return sampleBtn.getAttribute('aria-pressed') === 'true';
+  }
+
+  function render() {
+    var path = tpl.value;
+    if (showingSample() && hasExample()) {
+      path = path.replace('templates/', 'examples/');
+    }
+    frame.src = path;
+
+    if (!hasExample()) {
+      note.innerHTML = 'This page is the component reference, not a sendable email. ' +
+        'It has no filled-in twin.' + THEME_NOTE;
+    } else if (showingSample()) {
+      note.innerHTML = 'Showing <code>' + path + '</code> &mdash; the same template with a ' +
+        'fictional company filled in. These files are committed; you can open them directly.' +
+        THEME_NOTE;
+    } else {
+      note.innerHTML = 'Showing <code>' + path + '</code> with its <code>[PLACEHOLDER]</code> ' +
+        'tokens. Press <strong>Sample data</strong> to see it filled in.' + THEME_NOTE;
+    }
+  }
+
+  function syncSampleButton() {
+    var available = hasExample();
+    sampleBtn.disabled = !available;
+    sampleBtn.title = available ? '' : 'No filled-in version of this page';
+    if (!available) {
+      sampleBtn.setAttribute('aria-pressed', 'false');
+    }
+  }
+
+  function load() {
+    syncSampleButton();
+    render();
+  }
+
+  document.getElementById('widths').addEventListener('click', function (e) {
+    var btn = e.target.closest('button');
+    if (!btn) { return; }
+    var buttons = this.querySelectorAll('button');
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].setAttribute('aria-pressed', String(buttons[i] === btn));
+    }
+    var w = Number(btn.dataset.w);
+    stage.style.maxWidth = w ? w + 'px' : '100000px';
+  });
+
+  sampleBtn.addEventListener('click', function () {
+    if (this.disabled) { return; }
+    this.setAttribute('aria-pressed', String(!showingSample()));
+    render();
+  });
+
+  tpl.addEventListener('change', load);
+  load();
+})();
+</script>
+
+</body>
+</html>

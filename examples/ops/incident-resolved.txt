@@ -1,0 +1,54 @@
+What went wrong, how long it lasted, and whether you need to do
+anything.
+
+Fernway is working normally again
+
+The service is working normally again. The problem started at 14:05 UTC
+on 7 September 2026, ended at 15:12 UTC on 7 September 2026, and
+affected Job dispatch and the mobile app. Both times carry their
+timezone. The details are below, and you do not need the first email to
+follow them.
+
+Incident summary
+
+Status: Investigating
+Started: 14:05 UTC on 7 September 2026
+Resolved: 15:12 UTC on 7 September 2026
+Duration: 1 hour 7 minutes
+Affected: Job dispatch and the mobile app
+
+Here is what went wrong, in plain terms. A configuration change removed
+a database connection limit, and the pool ran out. The fault is
+corrected, and we are changing how that part of the system works.
+
+You do not need to do anything. If a page failed to load or a
+request did not go through while the incident was running, try it
+once more now. You do not need to sign in again or change your
+password.
+
+A fuller write-up, with the full timeline and the changes we are
+making, will be published on the status page:
+
+https://status.fernway.example
+
+We are sorry this happened. The failure was ours.
+
+If something on your account still looks wrong, reply to this email
+or write to support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because priya@brightpath.example is on a
+Fernway account that was affected by this incident.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

@@ -1,0 +1,47 @@
+You can cancel this until it takes effect. Cancel it now if it was not
+you.
+
+Your email address is changing
+
+A request was made at [EVENT_TIME] to change the email address on
+your [PRODUCT_NAME] account from [OLD_EMAIL_ADDRESS] to
+[NEW_EMAIL_ADDRESS].
+
+Once the change takes effect, [OLD_EMAIL_ADDRESS] will stop
+receiving mail from [PRODUCT_NAME], and you will sign in with
+[NEW_EMAIL_ADDRESS] instead. This is the last message we will send
+to this address.
+
+Important: If you did not ask for this change, someone else may
+have access to your account. Cancel the change now and change
+your password.
+
+Cancel this change:
+
+[SECONDARY_URL]
+
+You can cancel the change until [EXPIRY_ABSOLUTE] -
+[EXPIRY_RELATIVE] after this email was sent. After that the change
+takes effect and it cannot be stopped from this address.
+
+We will never ask you for your password by email. If anything here
+looks wrong, reply to this email, or write to [SUPPORT_EMAIL]. A
+real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because a request was made to change the
+email address on the [PRODUCT_NAME] account registered to
+[OLD_EMAIL_ADDRESS].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

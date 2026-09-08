@@ -1,0 +1,57 @@
+What was cancelled, what happens to the money, and where to ask about
+it.
+
+Your order is cancelled
+
+Order FW-10023 is cancelled. The reason on record is The vehicle
+charging dock is out of stock. Nothing from this order will be sent, and
+your payment method will not be charged for it.
+
+Details of the cancellation
+
+Order number: FW-10023
+Cancelled on: 14:05 UTC on 7 September 2026
+Reason: The vehicle charging dock is out of stock
+
+If you were charged for this order, USD 648.27 goes back to you by Visa
+ending 4242. Allow 5 to 10 business days for it to appear, because your
+bank sets the timing once we send the money.
+
+If the payment was only held and never taken, no money left your
+account and there is nothing to refund. The hold is released and
+drops off your statement within 5 to 10 business days.
+
+Items cancelled from order FW-10023
+
+Item: Fernway RT-2 rugged scanner
+Standard grip / 2-year warranty
+Qty: 2
+Amount: USD 498.00
+
+Nothing needs to be returned. To buy these items again, place a new
+order at the price in effect at that time.
+
+View this order:
+
+https://fernway.example/a/9f2a1c7e
+
+If you did not ask for this cancellation, or the refund has not
+arrived after 5 to 10 business days, reply to this email, or write to
+support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because order FW-10023, placed on the
+Fernway account registered to priya@brightpath.example, was cancelled.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

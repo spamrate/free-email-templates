@@ -1,0 +1,45 @@
+Most often this is an expired card. Your service is not affected for
+now.
+
+Your payment did not go through
+
+The charge for your Fernway subscription did not go through.
+In most cases the card on file has expired or been replaced, and
+nothing is wrong on your side.
+
+Details of the payment
+
+Amount: USD 588.00
+Plan: Crew
+Payment method: Visa ending 4242
+Next attempt: 10 September 2026
+
+Update payment method:
+
+https://fernway.example/a/9f2a1c7e
+
+Your service is not affected for now. The charge will be retried
+automatically on 10 September 2026. If you update the card before then,
+the next attempt will use it.
+
+If the card on file is correct, your bank can tell you why the
+charge was refused. To ask us, reply to this email, or write to
+support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because a payment for the Fernway
+subscription on the account registered to priya@brightpath.example did
+not go through.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

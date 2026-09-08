@@ -1,0 +1,47 @@
+What it does, who it is for, what it replaces, and where the settings
+live.
+
+[FEATURE_NAME] is now in [PRODUCT_NAME]
+
+[FEATURE_SUMMARY] It replaces [FEATURE_REPLACES]. It is switched on
+for everyone in [TEAM_NAME] with the [ROLE_NAME] role, so there is
+nothing to turn on, and nothing you have already set up changes.
+
+Three things it now makes possible:
+
+- [FEATURE_USE_1]
+- [FEATURE_USE_2]
+- [FEATURE_USE_3]
+
+Open your workspace:
+
+[CTA_URL]
+
+The settings, the limits, and the detail left out of this email are
+in the [PRODUCT_NAME] documentation:
+
+[SECONDARY_URL]
+
+If something does not work the way this email describes, reply to
+this email, or write to [SUPPORT_EMAIL]. A real person reads every
+message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because product update emails are turned on
+for the [PRODUCT_NAME] account registered to [EMAIL_ADDRESS].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+
+Unsubscribe:
+
+[UNSUBSCRIBE_URL]

@@ -1,0 +1,64 @@
+Your data is kept either way. Here is what happens on [GRACE_END_DATE].
+
+Final notice before your subscription pauses
+
+This is the last message about the payment for [PRODUCT_NAME]. The
+charge of [CURRENCY] [AMOUNT] for [PLAN_NAME] did not go through,
+and we have stopped retrying it.
+
+The most common reason is a card that expired since you set it up.
+Updating your payment method settles the amount and leaves
+everything as it is.
+
+Details of the payment
+
+Amount: [CURRENCY] [AMOUNT]
+Plan: [PLAN_NAME]
+Payment method: [CARD_BRAND] ending [CARD_LAST4]
+Invoice: [INVOICE_NUMBER]
+Last attempt: [RETRY_DATE]
+
+Important: On [GRACE_END_DATE] the subscription is paused. Your
+data is not deleted, and you can still sign in after that date.
+
+After [GRACE_END_DATE], until the payment method is updated:
+
+- [PRODUCT_NAME] becomes read-only for all [SEAT_COUNT] seats.
+- Scheduled work, integrations and API keys stop running.
+- Sign-in, reading and exporting your data keep working.
+
+Nothing is deleted. Your data is kept in full for
+[RETENTION_PERIOD] after [GRACE_END_DATE], until [RETENTION_END_DATE].
+Update the payment method before that date and the account returns
+to [PLAN_NAME] with everything as you left it. After that date the
+data is deleted and cannot be recovered.
+
+Update payment method:
+
+[CTA_URL]
+
+If you would rather stop paying for [PRODUCT_NAME], you do not have
+to do anything - the subscription pauses on its own on
+[GRACE_END_DATE]. If you want it cancelled outright, or moved to a
+smaller plan, write to [SUPPORT_EMAIL] and we will take care of it.
+
+If any of these details look wrong, reply to this email, or write
+to [SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because the payment for the [PRODUCT_NAME]
+subscription on the account registered to [EMAIL_ADDRESS] has not gone
+through.
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

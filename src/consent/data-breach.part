@@ -1,0 +1,183 @@
+--- meta
+title: Your [PRODUCT_NAME] data was breached
+aria: Your [PRODUCT_NAME] data was breached
+preheader: What was taken, what was not taken, and the four steps to take today.
+subject: Your [PRODUCT_NAME] data was breached
+footer: transactional
+reason: You are receiving this email because [EMAIL_ADDRESS] is the address on a [PRODUCT_NAME] account whose data was in this breach.
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Someone accessed your personal data at [PRODUCT_NAME]</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">What happened: [INCIDENT_SUMMARY] It started on <strong>[INCIDENT_DATE]</strong>. We discovered it on <strong>[INCIDENT_DISCOVERED]</strong>. Your [PRODUCT_NAME] account is one of the accounts it reached, and some of your personal data was in it.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">What was and was not involved</caption>
+<tbody>
+<tr>
+<th class="tot-label" scope="row" align="left" width="45%"
+    style="width:45%;padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Data involved</th>
+<td class="tot-grand-value" align="right" width="55%"
+    style="width:55%;padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[DATA_CATEGORIES]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Data not involved</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[DATA_NOT_INVOLVED]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">What we list as not involved is not a guess. It is the data we have checked and confirmed stayed out of this breach. If that changes, or if we find that more was involved, we will send you another email and say so on the breach updates page.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<h2 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">What to do now</h2>
+<ol style="padding:0;margin:0;list-style-type:decimal;">
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Change your [PRODUCT_NAME] password. The link below opens the page where you set a new one.</li>
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">If you used that same password on any other site, change it on those sites as well.</li>
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Turn on two-step verification for your [PRODUCT_NAME] account, so that a password on its own is not enough to sign in.</li>
+<li class="t-pri sm-text" style="margin:0 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Read through your recent account activity, and write to us about anything you do not recognise.</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:28px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="btn"
+   href="[CTA_URL]"
+   style="background-color:#1e40af;border:1px solid #1e40af;border-radius:6px;color:#ffffff;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#1e40af;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->Reset your password<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the button above does not work, copy and paste this address into your browser:<br>
+<a class="link" href="[CTA_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[CTA_URL]</a></p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table class="panel" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fdf6e3"
+       style="width:100%;background-color:#fdf6e3;border-left:4px solid #a16207;border-radius:4px;">
+<tr>
+<td class="panel-text"
+    style="padding:16px 20px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:24px;mso-line-height-rule:exactly;color:#3f2d05;background-color:#fdf6e3;"><strong>Important:</strong> Fake messages follow a breach, and they use the stolen data to sound real. [COMPANY_NAME] will never ask you for your password, for a payment, or for a code, by email or by phone. A message that asks you for any of those is not from us.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<h2 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">What we have done</h2>
+<p class="t-pri sm-text"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">We closed the way in on [INCIDENT_CONTAINED]. We ended every signed-in session on the accounts that were reached, so a stolen session cannot be used. An outside security firm is now going through our systems and our logs with us, and we have reported this breach to the data protection authority that regulates us.</p>
+<p class="t-pri sm-text"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">That work is not finished. We will publish what we learn, including anything that makes this worse than it looks today.</p>
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Your data was in our care and we did not keep it safe. That is our failure, and we are sorry for it.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">Everything we know is on the <a class="link" href="[BREACH_INFO_URL]" style="color:#1e40af;text-decoration:underline;">breach updates page</a>, and we add to that page as the work goes on:<br>
+<a class="link" href="[BREACH_INFO_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[BREACH_INFO_URL]</a></p>
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">For a question about your own account and your own data, write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a>, or reply to this email. A real person reads every message.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+Someone accessed your personal data at [PRODUCT_NAME]
+
+What happened: [INCIDENT_SUMMARY] It started on [INCIDENT_DATE].
+We discovered it on [INCIDENT_DISCOVERED]. Your [PRODUCT_NAME]
+account is one of the accounts it reached, and some of your
+personal data was in it.
+
+What was and was not involved
+
+Data involved: [DATA_CATEGORIES]
+Data not involved: [DATA_NOT_INVOLVED]
+
+What we list as not involved is not a guess. It is the data we have
+checked and confirmed stayed out of this breach. If that changes, or
+if we find that more was involved, we will send you another email
+and say so on the breach updates page.
+
+What to do now
+
+1. Change your [PRODUCT_NAME] password. The link below opens the
+page where you set a new one.
+
+2. If you used that same password on any other site, change it on
+those sites as well.
+
+3. Turn on two-step verification for your [PRODUCT_NAME] account,
+so that a password on its own is not enough to sign in.
+
+4. Read through your recent account activity, and write to us about
+anything you do not recognise.
+
+Reset your password:
+
+[CTA_URL]
+
+Important: Fake messages follow a breach, and they use the stolen
+data to sound real. [COMPANY_NAME] will never ask you for your
+password, for a payment, or for a code, by email or by phone. A
+message that asks you for any of those is not from us.
+
+What we have done
+
+We closed the way in on [INCIDENT_CONTAINED]. We ended every
+signed-in session on the accounts that were reached, so a stolen
+session cannot be used. An outside security firm is now going
+through our systems and our logs with us, and we have reported this
+breach to the data protection authority that regulates us.
+
+That work is not finished. We will publish what we learn, including
+anything that makes this worse than it looks today.
+
+Your data was in our care and we did not keep it safe. That is our
+failure, and we are sorry for it.
+
+Everything we know is on the breach updates page, and we add to
+that page as the work goes on:
+
+[BREACH_INFO_URL]
+
+For a question about your own account and your own data, write to
+[SUPPORT_EMAIL], or reply to this email. A real person reads every
+message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

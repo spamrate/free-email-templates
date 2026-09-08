@@ -1,0 +1,62 @@
+What changed, the date it takes effect, and what to do if you disagree.
+
+Changes to the [PRODUCT_NAME] terms of service
+
+We are changing the terms of service that govern your
+[PRODUCT_NAME] account. What is changing: [CHANGE_SUMMARY]. The new
+terms take effect on [EFFECTIVE_DATE] and apply to your account
+from that date.
+
+In plain words, these are the changes that affect you:
+
+- [LIST_ITEM_1]
+- [LIST_ITEM_2]
+- [LIST_ITEM_3]
+
+That list is a summary. It leaves things out, and it is not the
+agreement. The full terms of service govern your account, and where
+the summary and the full terms differ, the full terms apply. Read
+them before [EFFECTIVE_DATE].
+
+Read the terms of service:
+
+[TERMS_URL]
+
+If you do not agree
+
+You do not have to accept the new terms. If you do not want them to
+apply to you, stop using [PRODUCT_NAME] and close your account
+before [EFFECTIVE_DATE]. Export your data first, because a closed
+account cannot be opened again.
+
+You can export your data and close the account in your account
+settings. If the account is still open on [EFFECTIVE_DATE], the new
+terms apply to it.
+
+Open account settings:
+
+[SECONDARY_URL]
+
+This email is a notice about the terms that govern your account. It
+is not a marketing message, and there is nothing to unsubscribe
+from.
+
+If any part of this is unclear, reply to this email, or write to
+[SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because [EMAIL_ADDRESS] has a
+[PRODUCT_NAME] account, and these terms govern it.
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

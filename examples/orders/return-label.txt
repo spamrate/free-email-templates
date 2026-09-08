@@ -1,0 +1,64 @@
+The label is ready to print, and the parcel is due back at a carrier
+point.
+
+Your return is approved
+
+We approved the return on order FW-10023. Print your return
+label, send the items back by 5 October 2026, and we refund
+USD 648.27 when the parcel reaches us.
+
+Return details
+
+Order number: FW-10023
+Return deadline: 5 October 2026
+Refund amount when received: USD 648.27
+
+Print your return label:
+
+https://fernway.example/returns/10023/label.pdf
+
+What to do next:
+
+1. Pack the items in the box they arrived in, or any box that fits.
+2. Include everything that came with them, such as cables,
+manuals and accessories.
+3. Attach the label to the outside of the box, and cover any old label.
+4. Drop the parcel at a carrier point on or before 5 October 2026.
+
+Items on this return
+
+Item: Fernway RT-2 rugged scanner
+Standard grip / 2-year warranty
+Qty: 2
+Refund: USD 498.00
+
+Important: The label stops working after 5 October 2026. A
+parcel sent after that date comes back to you, and we cannot
+refund the order. If you need more time, write to us before the
+deadline.
+
+When the parcel reaches us we check the items, then refund
+USD 648.27 to your Visa ending 4242. The money
+takes 5 to 10 business days to reach you after we send it.
+
+If a line on this return is wrong, or the label will not print,
+reply to this email, or write to support@fernway.example. A real person
+reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because a return was approved on order
+FW-10023, placed with the Fernway account registered to
+priya@brightpath.example.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

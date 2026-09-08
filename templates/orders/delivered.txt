@@ -1,0 +1,48 @@
+Left at the address on the order. If the parcel is not there, here is
+what to do.
+
+Your order was delivered
+
+[CARRIER] recorded order [ORDER_NUMBER] as delivered at
+[DELIVERED_TIME]. It was left at the address below.
+
+Delivery details
+
+Order number: [ORDER_NUMBER]
+Delivered: [DELIVERED_TIME]
+Carrier: [CARRIER]
+
+Delivered to
+
+[SHIPPING_ADDRESS]
+
+Important: If you do not have the parcel, check with your
+neighbours and around the property, including any porch, side
+entrance or bin store. A carrier sometimes marks a parcel as
+delivered a little before it arrives. If it has not appeared within
+[DELIVERY_GRACE], write to [SUPPORT_EMAIL] and we will put it
+right.
+
+View your order:
+
+[ORDER_URL]
+
+If you have a question about this order, reply to this email. A
+real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because order [ORDER_NUMBER], placed with
+[COMPANY_NAME], was reported as delivered.
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

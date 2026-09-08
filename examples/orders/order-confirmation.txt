@@ -1,0 +1,78 @@
+What you bought, where it is going, and the estimated arrival date.
+
+Your order is confirmed
+
+Your order is placed and paid. We charged USD 648.27 to your
+Visa ending 4242 on 7 September 2026. Keep this email as
+your record of the order.
+
+Order details
+
+Order number: FW-10023
+Order date: 7 September 2026
+Payment method: Visa ending 4242
+
+Items in order FW-10023
+
+Item: Fernway RT-2 rugged scanner
+Standard grip / 2-year warranty
+Qty: 2
+Amount: USD 498.00
+
+Item: RT-2 vehicle charging dock
+12V, hardwired
+Qty: 2
+Amount: USD 90.00
+
+Order totals
+
+Subtotal: USD 588.00
+Shipping: USD 0.00
+Tax: USD 60.27
+Total paid: USD 648.27
+
+Shipping address
+Priya Raman
+Brightpath Mechanical
+1420 5th Avenue, Suite 300
+Seattle, WA 98101
+United States
+
+Billing address
+Brightpath Mechanical
+PO Box 1184
+Seattle, WA 98111
+United States
+
+Delivery is estimated for 11-13 September 2026. That date is an
+estimate, not a guarantee: it can move if the carrier runs late. We
+send a separate email when the order ships, with the carrier and a
+tracking number.
+
+View your order:
+
+https://fernway.example/orders/10023
+
+You can change or cancel this order on the order page until 18:00 UTC on
+8 September 2026. After that it is with the warehouse and we cannot stop
+it, but you can send it back once it arrives.
+
+If a line on this order does not look right, reply to this email, or
+write to support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because order FW-10023 was placed at
+Fernway using priya@brightpath.example.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

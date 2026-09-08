@@ -1,0 +1,134 @@
+--- meta
+title: Your order [ORDER_NUMBER] was delivered
+aria: Your order [ORDER_NUMBER] was delivered
+preheader: Left at the address on the order. If the parcel is not there, here is what to do.
+subject: Your order [ORDER_NUMBER] was delivered
+footer: transactional
+reason: You are receiving this email because order [ORDER_NUMBER], placed with [COMPANY_NAME], was reported as delivered.
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Your order was delivered</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[CARRIER] recorded order [ORDER_NUMBER] as delivered at [DELIVERED_TIME]. It was left at the address below.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Delivery details</caption>
+<tbody>
+<tr>
+<th class="tot-label" scope="row" align="left" width="45%"
+    style="width:45%;padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Order number</th>
+<td class="tot-grand-value" align="right" width="55%"
+    style="width:55%;padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ORDER_NUMBER]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Delivered</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[DELIVERED_TIME]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Carrier</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CARRIER]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td style="padding:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">
+<span class="t-sec" style="font-size:13px;line-height:20px;color:#4a4a4a;">Delivered to</span><br>
+<address class="t-pri unstyle-auto-detected-links" style="margin:0;font-style:normal;font-size:14px;line-height:22px;color:#1a1a1a;">[SHIPPING_ADDRESS]</address>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table class="panel" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fdf6e3"
+       style="width:100%;background-color:#fdf6e3;border-left:4px solid #a16207;border-radius:4px;">
+<tr>
+<td class="panel-text"
+    style="padding:16px 20px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:24px;mso-line-height-rule:exactly;color:#3f2d05;background-color:#fdf6e3;"><strong>Important:</strong> If you do not have the parcel, check with your neighbours and around the property, including any porch, side entrance or bin store. A carrier sometimes marks a parcel as delivered a little before it arrives. If it has not appeared within [DELIVERY_GRACE], write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a> and we will put it right.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:32px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="ghost"
+   href="[ORDER_URL]"
+   style="background-color:#ffffff;border:1px solid #6b6b70;border-radius:6px;color:#1a1a1a;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#ffffff;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->View your order<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the button above does not work, copy and paste this address into your browser:<br>
+<a class="link" href="[ORDER_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[ORDER_URL]</a></p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If you have a question about this order, reply to this email. A real person reads every message.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+Your order was delivered
+
+[CARRIER] recorded order [ORDER_NUMBER] as delivered at
+[DELIVERED_TIME]. It was left at the address below.
+
+Delivery details
+
+Order number: [ORDER_NUMBER]
+Delivered: [DELIVERED_TIME]
+Carrier: [CARRIER]
+
+Delivered to
+
+[SHIPPING_ADDRESS]
+
+Important: If you do not have the parcel, check with your
+neighbours and around the property, including any porch, side
+entrance or bin store. A carrier sometimes marks a parcel as
+delivered a little before it arrives. If it has not appeared within
+[DELIVERY_GRACE], write to [SUPPORT_EMAIL] and we will put it
+right.
+
+View your order:
+
+[ORDER_URL]
+
+If you have a question about this order, reply to this email. A
+real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

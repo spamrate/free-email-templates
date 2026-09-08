@@ -1,0 +1,48 @@
+What it does, who it is for, what it replaces, and where the settings
+live.
+
+Saved routes is now in Fernway
+
+A run of jobs you order once and reuse every week. It replaces
+rebuilding the same route every Monday morning. It is switched on for
+everyone in Brightpath Mechanical with the Dispatcher role, so there is
+nothing to turn on, and nothing you have already set up changes.
+
+Three things it now makes possible:
+
+- Keep a standing route for each crew and swap jobs in and out
+- Hand a route to a stand-in without explaining the order
+- Reuse last week without setting it up again
+
+Open your workspace:
+
+https://fernway.example/a/9f2a1c7e
+
+The settings, the limits, and the detail left out of this email are
+in the Fernway documentation:
+
+https://fernway.example/settings/security
+
+If something does not work the way this email describes, reply to this
+email, or write to support@fernway.example. A real person reads every
+message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because product update emails are turned on
+for the Fernway account registered to priya@brightpath.example.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+
+Unsubscribe:
+
+https://fernway.example/u/6b41f0a9

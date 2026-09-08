@@ -1,0 +1,52 @@
+What went wrong, how long it lasted, and whether you need to do
+anything.
+
+[PRODUCT_NAME] is working normally again
+
+The service is working normally again. The problem started at
+[EVENT_TIME], ended at [RESOLVED_TIME], and affected
+[AFFECTED_SCOPE]. Both times carry their timezone. The details are
+below, and you do not need the first email to follow them.
+
+Incident summary
+
+Status: [INCIDENT_STATUS]
+Started: [EVENT_TIME]
+Resolved: [RESOLVED_TIME]
+Duration: [INCIDENT_DURATION]
+Affected: [AFFECTED_SCOPE]
+
+Here is what went wrong, in plain terms. [INCIDENT_CAUSE] The fault
+is corrected, and we are changing how that part of the system works.
+
+You do not need to do anything. If a page failed to load or a
+request did not go through while the incident was running, try it
+once more now. You do not need to sign in again or change your
+password.
+
+A fuller write-up, with the full timeline and the changes we are
+making, will be published on the status page:
+
+[STATUS_PAGE_URL]
+
+We are sorry this happened. The failure was ours.
+
+If something on your account still looks wrong, reply to this email
+or write to [SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because [EMAIL_ADDRESS] is on a
+[PRODUCT_NAME] account that was affected by this incident.
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

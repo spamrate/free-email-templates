@@ -1,0 +1,64 @@
+The label is ready to print, and the parcel is due back at a carrier
+point.
+
+Your return is approved
+
+We approved the return on order [ORDER_NUMBER]. Print your return
+label, send the items back by [RETURN_DEADLINE], and we refund
+[CURRENCY] [REFUND_AMOUNT] when the parcel reaches us.
+
+Return details
+
+Order number: [ORDER_NUMBER]
+Return deadline: [RETURN_DEADLINE]
+Refund amount when received: [CURRENCY] [REFUND_AMOUNT]
+
+Print your return label:
+
+[RETURN_URL]
+
+What to do next:
+
+1. Pack the items in the box they arrived in, or any box that fits.
+2. Include everything that came with them, such as cables,
+manuals and accessories.
+3. Attach the label to the outside of the box, and cover any old label.
+4. Drop the parcel at a carrier point on or before [RETURN_DEADLINE].
+
+Items on this return
+
+Item: [ITEM_1_NAME]
+[ITEM_1_VARIANT]
+Qty: [ITEM_1_QTY]
+Refund: [CURRENCY] [ITEM_1_AMOUNT]
+
+Important: The label stops working after [RETURN_DEADLINE]. A
+parcel sent after that date comes back to you, and we cannot
+refund the order. If you need more time, write to us before the
+deadline.
+
+When the parcel reaches us we check the items, then refund
+[CURRENCY] [REFUND_AMOUNT] to your [REFUND_METHOD]. The money
+takes [REFUND_DAYS] to reach you after we send it.
+
+If a line on this return is wrong, or the label will not print,
+reply to this email, or write to [SUPPORT_EMAIL]. A real person
+reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because a return was approved on order
+[ORDER_NUMBER], placed with the [PRODUCT_NAME] account registered to
+[EMAIL_ADDRESS].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

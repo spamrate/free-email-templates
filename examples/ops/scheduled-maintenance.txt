@@ -1,0 +1,71 @@
+The start, the end and the timezone are below. Plan long jobs around the
+window.
+
+Scheduled maintenance for Fernway
+
+Fernway will be offline for planned maintenance from 02:00 UTC on 14
+September 2026 to 04:00 UTC on 14 September 2026. Both times are given
+with their timezone. If that is not your own timezone, convert them
+before you plan around the window.
+
+Maintenance window
+
+Starts: 02:00 UTC on 14 September 2026
+Ends: 04:00 UTC on 14 September 2026
+Duration: up to 2 hours
+Affected: Job dispatch and the mobile app
+
+The window above is the maximum, not the plan. The work often finishes
+sooner, and Fernway comes back as soon as it is done. Nothing waits for
+04:00 UTC on 14 September 2026 once the work is over.
+
+What stops during the window
+
+- Sign-in and the web app return an error.
+- The API returns an error on every request.
+- Scheduled jobs and webhooks are held, then run after the window
+closes.
+
+What keeps working
+
+- Your data stays where it is. Nothing is deleted or changed.
+- Work you saved before 02:00 UTC on 14 September 2026 is there when the
+window closes.
+- The status page stays up for the whole window.
+
+Before 02:00 UTC on 14 September 2026, finish any long-running job or
+postpone it until after 04:00 UTC on 14 September 2026. An export, an
+import or a bulk edit that is still going when the window opens will
+fail part way through.
+
+If your own software calls the API, expect errors for the length of
+the window and let it retry afterwards, rather than treating the
+failure as final.
+
+Open the status page:
+
+https://status.fernway.example
+
+The status page is where the work is reported while it runs, and
+where the end of the window is confirmed. This is the only email we
+plan to send about it.
+
+Questions before the window opens? Reply to this email, or write to
+support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because priya@brightpath.example is on a
+Fernway account affected by this maintenance window.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

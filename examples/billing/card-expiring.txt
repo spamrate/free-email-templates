@@ -1,0 +1,48 @@
+Nothing has gone wrong. Update the card before the next charge is taken.
+
+Your card expires soon
+
+The card on file for your Fernway subscription expires on
+10/2026. Nothing has gone wrong: the subscription is active
+and no payment has failed. This is a reminder to update the card
+before the next charge.
+
+Card on file
+
+Card: Visa ending 4242
+Expires: 10/2026
+Next charge: 7 October 2026 for USD 588.00
+
+Update your card:
+
+https://fernway.example/a/9f2a1c7e
+
+If your bank has already replaced this card, there may be nothing
+to do. Some banks send us the new details on their own. The card
+above is the one we hold today, and the charge on
+7 October 2026 uses the card on file on that date.
+
+If the charge on 7 October 2026 does not go through, your
+account stays open. We will email you and try the card again on
+10 September 2026.
+
+If anything here looks wrong, reply to this email, or write to
+support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because the card on file for the
+Fernway subscription registered to priya@brightpath.example expires on
+10/2026.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

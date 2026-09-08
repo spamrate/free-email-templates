@@ -1,0 +1,51 @@
+What is affected, what we know so far, and when we will update you.
+
+Fernway is not working normally
+
+The problem started at 14:05 UTC on 7 September 2026 and is affecting
+Job dispatch and the mobile app. Every time in this email carries its
+timezone. We do not know the cause yet, and we are not going to guess in
+this email. Everything we have confirmed is below.
+
+What we know so far
+
+Status: Investigating
+Started: 14:05 UTC on 7 September 2026
+Affected: Job dispatch and the mobile app
+Next update: 15:30 UTC on 7 September 2026
+
+Important: There is no workaround. Jobs already downloaded to a device
+still open offline.
+
+We will send the next update by 15:30 UTC on 7 September 2026, whether
+or not the problem is fixed by then. We are not putting a time on the
+fix, because we do not have one to give. Sorry for the trouble this is
+causing you.
+
+The status page has the current state and every update we have
+posted.
+
+Open the status page:
+
+https://status.fernway.example
+
+If this is blocking something urgent, reply to this email or write to
+support@fernway.example. Tell us what you were doing when it failed. It
+helps.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because priya@brightpath.example is on a
+Fernway account affected by this incident.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

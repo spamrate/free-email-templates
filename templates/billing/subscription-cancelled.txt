@@ -1,0 +1,49 @@
+What happens to your data, how long it is kept, and how to come back.
+
+Your subscription is cancelled
+
+Your [PLAN_NAME] subscription to [PRODUCT_NAME] is cancelled. There
+will be no more charges.
+
+[PRODUCT_NAME] keeps working until [GRACE_END_DATE]. After that
+date the paid features stop and the account stays open with no
+plan.
+
+Details of the cancellation
+
+Plan: [PLAN_NAME]
+Cancelled on: [EVENT_TIME]
+Access until: [GRACE_END_DATE]
+Final charge: [CURRENCY] [AMOUNT] on [INVOICE_DATE]
+
+Your data is kept for [RETENTION_PERIOD] after [GRACE_END_DATE],
+until [RETENTION_END_DATE]. Nothing is deleted before then. If you
+reactivate before that date, your account comes back with the same
+data. After that date the data is deleted and cannot be recovered.
+
+To start the subscription again, use the link below. The plan and
+the price in effect at that time apply.
+
+Reactivate your subscription:
+
+[SECONDARY_URL]
+
+If this is not what you expected, reply to this email, or write to
+[SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because the [PRODUCT_NAME] subscription on
+the account registered to [EMAIL_ADDRESS] was cancelled.
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

@@ -1,0 +1,53 @@
+If this was you, nothing is wrong. If it was not, secure the account.
+
+New sign-in to your [PRODUCT_NAME] account
+
+Someone signed in to your [PRODUCT_NAME] account from a device or a
+location we have not seen before. The sign-in was successful. Here
+is what we recorded.
+
+Sign-in details
+
+Account: [EMAIL_ADDRESS]
+When: [EVENT_TIME]
+Device: [EVENT_DEVICE]
+Location: [EVENT_LOCATION]
+IP address: [EVENT_IP]
+
+The location is approximate. We work it out from the IP address, so
+it can point at a nearby city, at your internet provider, or at a
+VPN server in another country. A location that looks wrong is not
+proof on its own that the sign-in was wrong.
+
+If this was you, there is nothing to do. You can delete this email.
+
+Important: If this was not you, someone else can reach your account.
+Secure it now: change the password, sign out every other device, and
+turn on two-step verification.
+
+Secure your account:
+
+[SECONDARY_URL]
+
+[COMPANY_NAME] will never ask you for your password, and will never
+ask you to send it in a reply to this email.
+
+Not sure what this sign-in was? Reply to this email, or write to
+[SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because someone signed in to the
+[PRODUCT_NAME] account registered to [EMAIL_ADDRESS].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

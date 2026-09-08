@@ -1,0 +1,43 @@
+Nothing changes until you confirm, and we have also sent a notice to the
+old address.
+
+Confirm your new email address
+
+A request was made to change the email address on the Fernway account
+from priya@brightpath.example to priya.raman@brightpath.example. We sent
+this message to the new address to check that it reaches you. We have
+also sent a notice of this request to the old address.
+
+Confirm this address:
+
+https://fernway.example/a/9f2a1c7e
+
+This link expires at 14:35 UTC on 7 September 2026 - 30 minutes after it
+was sent.
+
+Important: The change does not take effect until you confirm from
+this address. Until then, priya@brightpath.example stays the address on
+the account. If you did not ask for this, do not confirm: ignore
+this email and nothing changes on the account.
+
+We will never ask you for your password by email. If anything here
+looks wrong, reply to this email, or write to support@fernway.example. A
+real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because someone asked to move the
+Fernway account registered to priya@brightpath.example over to this
+address.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

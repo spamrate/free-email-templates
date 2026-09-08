@@ -1,0 +1,38 @@
+Your account is ready. Finishing your workspace takes about two minutes.
+
+Thanks for signing up, [FIRST_NAME]
+
+Your [PRODUCT_NAME] account is ready to use. We are glad you are
+here.
+
+The fastest way to get value out of [PRODUCT_NAME] is to finish
+setting up your workspace. It takes about two minutes, and you only
+have to do it once.
+
+Finish setting up:
+
+[CTA_URL]
+
+Something not working, or a question we have not answered? Reply to
+this email, or write to [SUPPORT_EMAIL]. A real person reads every
+message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because you created a [PRODUCT_NAME]
+account with [EMAIL_ADDRESS] on [SIGNUP_DATE].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+
+Unsubscribe:
+
+[UNSUBSCRIBE_URL]

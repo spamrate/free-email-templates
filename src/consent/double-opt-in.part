@@ -1,0 +1,86 @@
+--- meta
+title: Confirm your subscription to [LIST_NAME]
+aria: Confirm your subscription to [LIST_NAME]
+preheader: One link confirms the address. Ignore this email and nothing is sent.
+subject: Confirm your [PRODUCT_NAME] subscription
+footer: transactional
+reason: You are receiving this email because [EMAIL_ADDRESS] was entered on a signup form for [LIST_NAME].
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Confirm your subscription</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">This address, [EMAIL_ADDRESS], was entered on a signup form for [PRODUCT_NAME]. Confirm that the address is yours and [LIST_NAME] will start arriving. Until then nothing is sent to this address.</p>
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[LIST_NAME] is sent [SEND_FREQUENCY]. That is the whole of it: this link adds the address to that one list and nothing else.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:28px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="btn"
+   href="[CTA_URL]"
+   style="background-color:#1e40af;border:1px solid #1e40af;border-radius:6px;color:#ffffff;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#1e40af;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->Confirm your subscription<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the button above does not work, copy and paste this address into your browser:<br>
+<a class="link" href="[CTA_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[CTA_URL]</a></p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">This link expires at <strong>[EXPIRY_ABSOLUTE]</strong> &mdash; [EXPIRY_RELATIVE] after it was sent. After that, enter the address on the form again to get a new link.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If you did not sign up, you need do nothing at all. No further email will arrive, and the address is discarded.</p>
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If anything here looks wrong, reply to this email, or write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a>. A real person reads every message.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+Confirm your subscription
+
+This address, [EMAIL_ADDRESS], was entered on a signup form for
+[PRODUCT_NAME]. Confirm that the address is yours and [LIST_NAME]
+will start arriving. Until then nothing is sent to this address.
+
+[LIST_NAME] is sent [SEND_FREQUENCY]. That is the whole of it: this
+link adds the address to that one list and nothing else.
+
+Confirm your subscription:
+
+[CTA_URL]
+
+This link expires at [EXPIRY_ABSOLUTE] - [EXPIRY_RELATIVE] after it
+was sent. After that, enter the address on the form again to get a
+new link.
+
+If you did not sign up, you need do nothing at all. No further
+email will arrive, and the address is discarded.
+
+If anything here looks wrong, reply to this email, or write to
+[SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

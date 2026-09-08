@@ -1,0 +1,86 @@
+--- meta
+title: Your sign-in code for [PRODUCT_NAME]
+aria: Your sign-in code for [PRODUCT_NAME]
+preheader: Nobody from [COMPANY_NAME] will ever ask you for this code by phone, email or chat.
+subject: Your sign-in code for [PRODUCT_NAME]
+footer: transactional
+reason: You are receiving this email because someone asked to sign in to the [PRODUCT_NAME] account for [EMAIL_ADDRESS].
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Your one-time sign-in code</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Someone asked to sign in to [PRODUCT_NAME] as [EMAIL_ADDRESS]. Enter this 6-digit code to finish signing in.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table class="code-box" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
+       style="width:100%;background-color:#ffffff;border:2px solid #1a1a1a;border-radius:8px;">
+<tr>
+<td class="code" align="center"
+    style="padding:20px 16px;text-align:center;font-family:SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier New, Courier, monospace;font-size:32px;line-height:40px;mso-line-height-rule:exactly;font-weight:bold;letter-spacing:6px;color:#1a1a1a;background-color:#ffffff;">[OTP_CODE]</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">This code expires at <strong>[EXPIRY_ABSOLUTE]</strong> &mdash; [EXPIRY_RELATIVE] after it was sent.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table class="panel" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fdf6e3"
+       style="width:100%;background-color:#fdf6e3;border-left:4px solid #a16207;border-radius:4px;">
+<tr>
+<td class="panel-text"
+    style="padding:16px 20px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:24px;mso-line-height-rule:exactly;color:#3f2d05;background-color:#fdf6e3;"><strong>Important:</strong> Nobody from [COMPANY_NAME] will ever ask you for this code by phone, email or chat. If you did not try to sign in, someone else may have your password. Change your password, and do not enter this code anywhere.</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">Questions about this message? Write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a>. A real person reads every message, and we will never ask you for your password.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+Your one-time sign-in code
+
+Someone asked to sign in to [PRODUCT_NAME] as [EMAIL_ADDRESS]. Enter
+this 6-digit code to finish signing in.
+
+[OTP_CODE]
+
+This code expires at [EXPIRY_ABSOLUTE] - [EXPIRY_RELATIVE] after it
+was sent.
+
+Important: Nobody from [COMPANY_NAME] will ever ask you for this
+code by phone, email or chat. If you did not try to sign in,
+someone else may have your password. Change your password, and do
+not enter this code anywhere.
+
+Questions about this message? Write to [SUPPORT_EMAIL]. A real
+person reads every message, and we will never ask you for your
+password.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

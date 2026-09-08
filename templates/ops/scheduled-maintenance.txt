@@ -1,0 +1,71 @@
+The start, the end and the timezone are below. Plan long jobs around the
+window.
+
+Scheduled maintenance for [PRODUCT_NAME]
+
+[PRODUCT_NAME] will be offline for planned maintenance from
+[MAINTENANCE_START] to [MAINTENANCE_END]. Both times are given with
+their timezone. If that is not your own timezone, convert them
+before you plan around the window.
+
+Maintenance window
+
+Starts: [MAINTENANCE_START]
+Ends: [MAINTENANCE_END]
+Duration: [MAINTENANCE_DURATION]
+Affected: [AFFECTED_SCOPE]
+
+The window above is the maximum, not the plan. The work often
+finishes sooner, and [PRODUCT_NAME] comes back as soon as it is
+done. Nothing waits for [MAINTENANCE_END] once the work is over.
+
+What stops during the window
+
+- Sign-in and the web app return an error.
+- The API returns an error on every request.
+- Scheduled jobs and webhooks are held, then run after the window
+closes.
+
+What keeps working
+
+- Your data stays where it is. Nothing is deleted or changed.
+- Work you saved before [MAINTENANCE_START] is there when the
+window closes.
+- The status page stays up for the whole window.
+
+Before [MAINTENANCE_START], finish any long-running job or postpone
+it until after [MAINTENANCE_END]. An export, an import or a bulk
+edit that is still going when the window opens will fail part way
+through.
+
+If your own software calls the API, expect errors for the length of
+the window and let it retry afterwards, rather than treating the
+failure as final.
+
+Open the status page:
+
+[STATUS_PAGE_URL]
+
+The status page is where the work is reported while it runs, and
+where the end of the window is confirmed. This is the only email we
+plan to send about it.
+
+Questions before the window opens? Reply to this email, or write to
+[SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because [EMAIL_ADDRESS] is on a
+[PRODUCT_NAME] account affected by this maintenance window.
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

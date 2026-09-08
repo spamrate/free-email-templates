@@ -1,0 +1,100 @@
+--- meta
+title: [ACTOR_NAME] commented on [OBJECT_NAME]
+aria: [ACTOR_NAME] commented on [OBJECT_NAME]
+preheader: The comment is quoted below, with a link to the thread and your settings.
+subject: [ACTOR_NAME] commented on [OBJECT_NAME]
+footer: transactional
+reason: You are receiving this email because you follow [OBJECT_NAME] in [PRODUCT_NAME] and comment notifications are on for [EMAIL_ADDRESS].
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">[ACTOR_NAME] commented on [OBJECT_NAME]</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[ACTOR_NAME] commented on [OBJECT_NAME] in [PRODUCT_NAME] at [EVENT_TIME]. Here is the start of the comment.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table class="panel" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fdf6e3"
+       style="width:100%;background-color:#fdf6e3;border-left:4px solid #a16207;border-radius:4px;">
+<tr>
+<td class="panel-text"
+    style="padding:16px 20px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:24px;mso-line-height-rule:exactly;color:#3f2d05;background-color:#fdf6e3;"><strong>[ACTOR_NAME] wrote:</strong> [COMMENT_EXCERPT]</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">The quotation above is an excerpt. The whole comment, and anything posted after it, is in the thread.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:28px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="btn"
+   href="[CTA_URL]"
+   style="background-color:#1e40af;border:1px solid #1e40af;border-radius:6px;color:#ffffff;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#1e40af;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->Open the comment thread<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the button above does not work, copy and paste this address into your browser:<br>
+<a class="link" href="[CTA_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[CTA_URL]</a></p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">Replying to this email does not post a reply. To answer [ACTOR_NAME], open the thread and write there.</p>
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">You decide which comments reach [EMAIL_ADDRESS]. Change that on your <a class="link" href="[SECONDARY_URL]" style="color:#1e40af;text-decoration:underline;">notification settings</a> page:<br>
+<a class="link" href="[SECONDARY_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[SECONDARY_URL]</a></p>
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">Something wrong with this notification? Write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a>. A real person reads every message.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+[ACTOR_NAME] commented on [OBJECT_NAME]
+
+[ACTOR_NAME] commented on [OBJECT_NAME] in [PRODUCT_NAME] at
+[EVENT_TIME]. Here is the start of the comment.
+
+[ACTOR_NAME] wrote: [COMMENT_EXCERPT]
+
+The quotation above is an excerpt. The whole comment, and anything
+posted after it, is in the thread.
+
+Open the comment thread:
+
+[CTA_URL]
+
+Replying to this email does not post a reply. To answer
+[ACTOR_NAME], open the thread and write there.
+
+You decide which comments reach [EMAIL_ADDRESS]. Change that on your
+notification settings page:
+
+[SECONDARY_URL]
+
+Something wrong with this notification? Write to [SUPPORT_EMAIL]. A
+real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

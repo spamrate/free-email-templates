@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+<meta name="x-apple-disable-message-reformatting" content="">
+<meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+<title>Component library</title>
+
+<!--[if mso]>
+<noscript>
+<xml>
+<o:OfficeDocumentSettings>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+</noscript>
+<![endif]-->
+
+<!--[if mso]>
+<style type="text/css">
+body, table, td, th, p, a, h1, h2, h3, li { font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+</style>
+<![endif]-->
+
+<style>
+  :root { color-scheme: light dark; }
+
+  .body { margin: 0; padding: 0; background-color: #f4f4f5; }
+
+  table { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+
+  h1, h2, h3, p { margin: 0; }
+  html[dir] h3 { margin: 0; }
+
+  .body, .body td, .body th, .body p, .body a { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
+
+  div[style*="margin: 16px 0"] { margin: 0 !important; }
+  #MessageViewBody, #MessageWebViewDiv { width: 100% !important; }
+
+  a[x-apple-data-detectors],
+  .unstyle-auto-detected-links a {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+
+  u + #body a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+  }
+
+  span.MsoHyperlink, span.MsoHyperlinkFollowed {
+    color: inherit !important;
+    mso-style-priority: 99 !important;
+  }
+
+  @media screen and (max-width: 600px) {
+    .sm-pad { padding-left: 20px !important; padding-right: 20px !important; }
+    .sm-text { font-size: 17px !important; line-height: 27px !important; }
+    .btn, .ghost { display: block !important; font-size: 17px !important; text-align: center !important; }
+    .sm-gap { height: 12px !important; }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .body, .page { background-color: #111111 !important; color: #ededed !important; }
+    .card { background-color: #1c1c1e !important; }
+    .rule, .tbl-rule { background-color: #3a3a3a !important; }
+    .t-pri, .t-pri a { color: #ededed !important; }
+    .t-sec, .t-sec a { color: #b3b3b3 !important; }
+    a.link { color: #8ab4f8 !important; }
+    .btn { background-color: #2b5cea !important; border-color: #2b5cea !important; color: #ffffff !important; text-underline-color: #2b5cea !important; }
+    .ghost { background-color: #1c1c1e !important; border-color: #8a8a90 !important; color: #ededed !important; text-underline-color: #1c1c1e !important; }
+    .code-box { background-color: #1c1c1e !important; border-color: #6b6b70 !important; }
+    .code { background-color: #1c1c1e !important; color: #ededed !important; }
+    .panel { background-color: #2a2418 !important; border-color: #c9a227 !important; }
+    .panel-text { background-color: #2a2418 !important; color: #f0e6cc !important; }
+    .th { color: #ededed !important; border-color: #3a3a3a !important; }
+    .td, .td-num { color: #ededed !important; border-color: #2c2c2e !important; }
+    .tot-label, .tot-value { color: #b3b3b3 !important; border-color: #3a3a3a !important; }
+    .tot-grand-label, .tot-grand-value { color: #ededed !important; border-color: #3a3a3a !important; }
+  }
+
+  [data-ogsb] .page { background-color: #111111 !important; }
+  [data-ogsb] .card { background-color: #1c1c1e !important; }
+  [data-ogsb] .rule, [data-ogsb] .tbl-rule { background-color: #3a3a3a !important; }
+  [data-ogsc] .t-pri, [data-ogsc] .t-pri a { color: #ededed !important; }
+  [data-ogsc] .t-sec, [data-ogsc] .t-sec a { color: #b3b3b3 !important; }
+  [data-ogsc] a.link { color: #8ab4f8 !important; }
+  [data-ogsb] .btn { background-color: #2b5cea !important; border-color: #2b5cea !important; }
+  [data-ogsc] .btn { color: #ffffff !important; }
+  [data-ogsb] .ghost { background-color: #1c1c1e !important; }
+  [data-ogsc] .ghost { color: #ededed !important; }
+  [data-ogsb] .code-box { background-color: #1c1c1e !important; }
+  [data-ogsb] .code { background-color: #1c1c1e !important; }
+  [data-ogsc] .code { color: #ededed !important; }
+  [data-ogsb] .panel { background-color: #2a2418 !important; }
+  [data-ogsb] .panel-text { background-color: #2a2418 !important; }
+  [data-ogsc] .panel-text { color: #f0e6cc !important; }
+  [data-ogsc] .th, [data-ogsc] .td, [data-ogsc] .td-num { color: #ededed !important; }
+  [data-ogsc] .tot-label, [data-ogsc] .tot-value { color: #b3b3b3 !important; }
+  [data-ogsc] .tot-grand-label, [data-ogsc] .tot-grand-value { color: #ededed !important; }
+</style>
+</head>
+
+<body id="body" class="body" lang="en" dir="ltr" xml:lang="en" style="margin:0;padding:0;color:#1a1a1a;background-color:#f4f4f5;mso-line-height-rule:exactly;">
+
+<div style="display:none;font-size:0;line-height:0;max-height:0;max-width:0;">Every markup primitive in this library, in one previewable page.</div>
+
+<div role="article" aria-roledescription="email" aria-label="Component library" lang="en" dir="ltr"
+     style="font-size:medium;font-size:max(16px, 1rem);">
+
+<table class="page" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#f4f4f5"
+       style="width:100%;color:#1a1a1a;background-color:#f4f4f5;">
+<tr>
+<td align="center" style="padding:24px 12px;">
+
+<!--[if mso]>
+<table role="presentation" align="center" width="600" cellpadding="0" cellspacing="0" border="0"><tr><td>
+<![endif]-->
+
+<div style="width:100%;max-width:600px;margin:0 auto;text-align:left;">
+
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="t-pri sm-pad" align="left"
+    style="padding:0 32px 16px 32px;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:18px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Component library</td>
+</tr>
+</table>
+
+<table class="card" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
+       style="width:100%;background-color:#ffffff;border-radius:8px;">
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Component library</h1>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">Every block below is copy-and-paste ready. Each one is delimited by an HTML comment naming it. Read <strong>partials/README.md</strong> before changing any of them &mdash; several carry arithmetic or accessibility constraints that are not visible in the markup.</p>
+</td>
+</tr>
+
+<!-- ============================================================
+     PRIMITIVE 1 — DATA TABLE (order lines / invoice line items)
+     A REAL data table. It must NOT carry role="presentation".
+     Column widths live in HTML width attributes, not CSS:
+     the Word engine ignores table-layout.
+     Canonical split: 60 / 15 / 25.
+     ============================================================ -->
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h2 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">1. Line-item table</h2>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Items in order [ORDER_NUMBER]</caption>
+<thead>
+<tr>
+<th class="th" scope="col" align="left" width="60%"
+    style="width:60%;padding:8px 8px 8px 0;text-align:left;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Item</th>
+<th class="th" scope="col" align="right" width="15%"
+    style="width:15%;padding:8px 8px;text-align:right;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Qty</th>
+<th class="th" scope="col" align="right" width="25%"
+    style="width:25%;padding:8px 0 8px 8px;text-align:right;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="td" scope="row" align="left"
+    style="padding:12px 8px 12px 0;text-align:left;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#1a1a1a;">[ITEM_1_NAME]<br><span class="t-sec" style="font-size:13px;line-height:20px;color:#4a4a4a;">[ITEM_1_VARIANT]</span></th>
+<td class="td-num" align="right"
+    style="padding:12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ITEM_1_QTY]</td>
+<td class="td-num" align="right"
+    style="padding:12px 0 12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ITEM_1_AMOUNT]</td>
+</tr>
+<tr>
+<th class="td" scope="row" align="left"
+    style="padding:12px 8px 12px 0;text-align:left;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#1a1a1a;">[ITEM_2_NAME]<br><span class="t-sec" style="font-size:13px;line-height:20px;color:#4a4a4a;">[ITEM_2_VARIANT]</span></th>
+<td class="td-num" align="right"
+    style="padding:12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ITEM_2_QTY]</td>
+<td class="td-num" align="right"
+    style="padding:12px 0 12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ITEM_2_AMOUNT]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- PRIMITIVE 1 — end -->
+
+<!-- ============================================================
+     PRIMITIVE 2 — TOTALS BLOCK
+     Still a data table. Labels are <th scope="row">, money is <td>.
+     Right alignment is set TWICE: align attribute + inline style.
+     Grand total is marked by <strong> AND a border, never by fill
+     alone — a fill inverts into the body colour in dark mode.
+     ============================================================ -->
+<tr>
+<td class="sm-pad" style="padding:16px 32px 0 32px;">
+<h2 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">2. Totals</h2>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Order totals</caption>
+<tbody>
+<tr>
+<th class="tot-label" scope="row" align="left" width="65%"
+    style="width:65%;padding:8px 8px 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Subtotal</th>
+<td class="tot-value" align="right" width="35%"
+    style="width:35%;padding:8px 0 8px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SUBTOTAL]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:8px 8px 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Shipping</th>
+<td class="tot-value" align="right"
+    style="padding:8px 0 8px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SHIPPING]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:8px 8px 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Tax</th>
+<td class="tot-value" align="right"
+    style="padding:8px 0 8px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[TAX]</td>
+</tr>
+<tr>
+<th class="tot-grand-label" scope="row" align="left"
+    style="padding:12px 8px 0 0;text-align:left;border-top:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Total</th>
+<td class="tot-grand-value" align="right"
+    style="padding:12px 0 0 8px;text-align:right;border-top:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;"><strong>[TOTAL]</strong></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- PRIMITIVE 2 — end -->
+
+<!-- ============================================================
+     PRIMITIVE 3 — ONE-TIME CODE
+     The code is ONE contiguous text node. Do not split the digits
+     into per-span boxes and do not insert spacer characters:
+     both break select-and-copy, which is how the code is used.
+     The sentence states the digit count, because some screen
+     readers announce 482913 as "four hundred eighty-two thousand".
+     Border, not fill, so it survives forced inversion.
+     ============================================================ -->
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h2 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">3. One-time code</h2>
+<p class="t-pri sm-text"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Enter this 6-digit code to finish signing in:</p>
+
+<table class="code-box" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff"
+       style="width:100%;background-color:#ffffff;border:2px solid #1a1a1a;border-radius:8px;">
+<tr>
+<td class="code" align="center"
+    style="padding:20px 16px;text-align:center;font-family:SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier New, Courier, monospace;font-size:32px;line-height:40px;mso-line-height-rule:exactly;font-weight:bold;letter-spacing:6px;color:#1a1a1a;background-color:#ffffff;">[OTP_CODE]</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- PRIMITIVE 3 — end -->
+
+<!-- ============================================================
+     PRIMITIVE 4 — LABEL / VALUE BLOCK
+     This is tabular data, so it is a data table with <th scope="row">
+     labels — that is what makes "Order number" announce together
+     with its value. Single column by default: correct at every
+     width, correct in a screen reader, no ghost tables needed.
+     ============================================================ -->
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h2 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">4. Label / value</h2>
+
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Order details</caption>
+<tbody>
+<tr>
+<th class="tot-label" scope="row" align="left" width="45%"
+    style="width:45%;padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Order number</th>
+<td class="tot-grand-value" align="right" width="55%"
+    style="width:55%;padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ORDER_NUMBER]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Order date</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ORDER_DATE]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Payment method</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[PAYMENT_METHOD]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<!-- PRIMITIVE 4 — end -->
+
+<!-- ============================================================
+     PRIMITIVE 5 — LIST
+     Real <ul>/<ol>/<li>, so a screen reader announces "list, 3
+     items". The indent is a LEFT MARGIN ON THE <li>, never padding
+     on the <ul>: client defaults for list padding vary wildly and
+     Outlook ignores list-style-position.
+     Use list-style-type longhand, never the list-style shorthand.
+     ============================================================ -->
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h2 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">5. List</h2>
+<ul style="padding:0;margin:0;list-style-type:disc;">
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[LIST_ITEM_1]</li>
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[LIST_ITEM_2]</li>
+<li class="t-pri sm-text" style="margin:0 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[LIST_ITEM_3]</li>
+</ul>
+</td>
+</tr>
+<!-- PRIMITIVE 5 — end -->
+
+<!-- ============================================================
+     PRIMITIVE 6 — PRIMARY + SECONDARY BUTTON
+     Both are <a>, never <button> and never role="button": email has
+     no JavaScript, so a fake button is a control no keyboard user
+     can operate.
+     The ghost button declares an EXPLICIT background-color, not
+     "transparent" — an inverting client flips background and border
+     together, and an undeclared background makes the button vanish.
+     mso-text-raise percentages are tied to the padding by
+     arithmetic: 12px on 16px text = 75%, doubled to 150% on the <i>.
+     Stacked, not side by side: two padded buttons do not fit at 320px.
+     ============================================================ -->
+<tr>
+<td class="sm-pad" align="left" style="padding:32px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<h2 class="t-pri"
+    style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">6. Buttons</h2>
+<a class="btn"
+   href="[CTA_URL]"
+   style="background-color:#1e40af;border:1px solid #1e40af;border-radius:6px;color:#ffffff;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#1e40af;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->[CTA_LABEL]<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:12px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="ghost"
+   href="[SECONDARY_URL]"
+   style="background-color:#ffffff;border:1px solid #6b6b70;border-radius:6px;color:#1a1a1a;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#ffffff;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->[SECONDARY_LABEL]<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<!-- PRIMITIVE 6 — end -->
+
+<!-- ============================================================
+     PRIMITIVE 7 — CALLOUT PANEL
+     A text-only library has no icon, so the WORD is the icon:
+     lead with a bold "Important:" — colour must never be the only
+     signal (WCAG 1.4.1).
+     Never a background image or gradient: Gmail removes the entire
+     style attribute or <style> tag when it finds a url() in it.
+     Both background-color and color are declared, and the border is
+     kept, so the panel is still a panel after forced inversion.
+     ============================================================ -->
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h2 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">7. Callout</h2>
+
+<table class="panel" role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#fdf6e3"
+       style="width:100%;background-color:#fdf6e3;border-left:4px solid #a16207;border-radius:4px;">
+<tr>
+<td class="panel-text"
+    style="padding:16px 20px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:24px;mso-line-height-rule:exactly;color:#3f2d05;background-color:#fdf6e3;"><strong>Important:</strong> [CALLOUT_TEXT]</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- PRIMITIVE 7 — end -->
+
+<!-- ============================================================
+     PRIMITIVE 8 — DIGEST ITEM
+     The item title IS the link. Never "Read more": a screen reader
+     user picks from a links-only list where the surrounding copy is
+     gone, and eight identical "Read more" links are unusable.
+     ARIA cannot rescue this — Yahoo and AOL strip aria-label, and
+     Gmail and Outlook.com break aria-labelledby by prefixing ids.
+     Repeat this block per item.
+     ============================================================ -->
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h2 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">8. Digest item</h2>
+<h3 style="margin:0 0 4px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;"><a class="link" href="[ITEM_URL]" style="color:#1e40af;text-decoration:underline;">[ITEM_TITLE]</a></h3>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[ITEM_SUMMARY]</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:16px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="tbl-rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<!-- PRIMITIVE 8 — end -->
+
+<!-- ============================================================
+     PRIMITIVE 9 — EXPIRY STATEMENT
+     Prose, not a component. State an ABSOLUTE timestamp with a
+     timezone AND the relative duration: you cannot compute the
+     reader's local time at open, and a relative-only deadline is
+     already wrong by the time the message clears a queue.
+     Never a live countdown — see partials/README.md.
+     ============================================================ -->
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h2 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">9. Expiry</h2>
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">This code expires at <strong>[EXPIRY_ABSOLUTE]</strong> &mdash; [EXPIRY_RELATIVE] after it was sent.</p>
+</td>
+</tr>
+<!-- PRIMITIVE 9 — end -->
+
+<!-- ============================================================
+     PRIMITIVE 10 — ADDRESS BLOCK
+     Two independent blocks, NOT a matrix — so a layout table with
+     role="presentation", never <th>Billing</th><th>Shipping</th>.
+     Each label stays inside the same cell as its address so they
+     can never separate when the columns stack.
+     Stacks with no media query: two 220px minimums cannot both fit
+     a 320px viewport. The ghost table keeps them side by side in
+     the Word engine, which ignores min-width.
+     ============================================================ -->
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h2 class="t-pri"
+    style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:17px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">10. Addresses</h2>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="center" style="padding:0 32px 0 32px;font-size:0;text-align:center;">
+<!--[if mso]>
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top" width="50%">
+<![endif]-->
+<div style="display:inline-block;width:100%;min-width:220px;max-width:260px;vertical-align:top;text-align:left;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td style="padding:0 8px 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">
+<span class="t-sec" style="font-size:13px;line-height:20px;color:#4a4a4a;">Shipping address</span><br>
+<address class="t-pri unstyle-auto-detected-links" style="margin:0;font-style:normal;font-size:14px;line-height:22px;color:#1a1a1a;">[SHIPPING_ADDRESS]</address>
+</td>
+</tr>
+</table>
+</div><!--
+--><!--[if mso]>
+</td><td valign="top" width="50%">
+<![endif]-->
+<div style="display:inline-block;width:100%;min-width:220px;max-width:260px;vertical-align:top;text-align:left;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td style="padding:0 0 16px 8px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">
+<span class="t-sec" style="font-size:13px;line-height:20px;color:#4a4a4a;">Billing address</span><br>
+<address class="t-pri unstyle-auto-detected-links" style="margin:0;font-style:normal;font-size:14px;line-height:22px;color:#1a1a1a;">[BILLING_ADDRESS]</address>
+</td>
+</tr>
+</table>
+</div>
+<!--[if mso]>
+</td></tr></table>
+<![endif]-->
+</td>
+</tr>
+<!-- PRIMITIVE 10 — end -->
+
+<tr>
+<td class="sm-pad" style="padding:16px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">This page is documentation, not a sendable email. It has no compliance footer, because it is never sent.</p>
+</td>
+</tr>
+</table>
+
+</div>
+
+<!--[if mso]>
+</td></tr></table>
+<![endif]-->
+
+</td>
+</tr>
+</table>
+
+</div>
+</body>
+</html>

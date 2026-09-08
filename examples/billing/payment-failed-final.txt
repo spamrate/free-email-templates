@@ -1,0 +1,64 @@
+Your data is kept either way. Here is what happens on 21 September 2026.
+
+Final notice before your subscription pauses
+
+This is the last message about the payment for Fernway. The
+charge of USD 588.00 for Crew did not go through,
+and we have stopped retrying it.
+
+The most common reason is a card that expired since you set it up.
+Updating your payment method settles the amount and leaves
+everything as it is.
+
+Details of the payment
+
+Amount: USD 588.00
+Plan: Crew
+Payment method: Visa ending 4242
+Invoice: FW-2026-04417
+Last attempt: 10 September 2026
+
+Important: On 21 September 2026 the subscription is paused. Your
+data is not deleted, and you can still sign in after that date.
+
+After 21 September 2026, until the payment method is updated:
+
+- Fernway becomes read-only for all 12 seats.
+- Scheduled work, integrations and API keys stop running.
+- Sign-in, reading and exporting your data keep working.
+
+Nothing is deleted. Your data is kept in full for
+90 days after 21 September 2026, until 20 December 2026.
+Update the payment method before that date and the account returns
+to Crew with everything as you left it. After that date the
+data is deleted and cannot be recovered.
+
+Update payment method:
+
+https://fernway.example/a/9f2a1c7e
+
+If you would rather stop paying for Fernway, you do not have to do
+anything - the subscription pauses on its own on 21 September 2026. If
+you want it cancelled outright, or moved to a smaller plan, write to
+support@fernway.example and we will take care of it.
+
+If any of these details look wrong, reply to this email, or write
+to support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because the payment for the Fernway
+subscription on the account registered to priya@brightpath.example has
+not gone through.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

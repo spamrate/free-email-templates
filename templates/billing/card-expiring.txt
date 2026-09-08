@@ -1,0 +1,48 @@
+Nothing has gone wrong. Update the card before the next charge is taken.
+
+Your card expires soon
+
+The card on file for your [PRODUCT_NAME] subscription expires on
+[CARD_EXPIRY]. Nothing has gone wrong: the subscription is active
+and no payment has failed. This is a reminder to update the card
+before the next charge.
+
+Card on file
+
+Card: [CARD_BRAND] ending [CARD_LAST4]
+Expires: [CARD_EXPIRY]
+Next charge: [NEXT_CHARGE_DATE] for [CURRENCY] [AMOUNT]
+
+Update your card:
+
+[CTA_URL]
+
+If your bank has already replaced this card, there may be nothing
+to do. Some banks send us the new details on their own. The card
+above is the one we hold today, and the charge on
+[NEXT_CHARGE_DATE] uses the card on file on that date.
+
+If the charge on [NEXT_CHARGE_DATE] does not go through, your
+account stays open. We will email you and try the card again on
+[RETRY_DATE].
+
+If anything here looks wrong, reply to this email, or write to
+[SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because the card on file for the
+[PRODUCT_NAME] subscription registered to [EMAIL_ADDRESS] expires on
+[CARD_EXPIRY].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

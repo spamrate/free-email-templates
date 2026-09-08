@@ -1,0 +1,65 @@
+--- meta
+title: You are unsubscribed from [LIST_NAME]
+aria: You are unsubscribed from [LIST_NAME]
+preheader: The removal is done. Account email, such as receipts, keeps arriving.
+subject: You are unsubscribed from [LIST_NAME]
+footer: transactional
+reason: You are receiving this email because [EMAIL_ADDRESS] asked to be removed from [LIST_NAME].
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">You are unsubscribed from [LIST_NAME]</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[EMAIL_ADDRESS] has been removed from [LIST_NAME]. A message that was already queued can still reach you during the next [UNSUB_PROCESSING_PERIOD].</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">You will still get email about your account itself, if you have one: receipts, security notices, and replies to messages you send us.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If you wanted fewer emails rather than none, your <a class="link" href="[SECONDARY_URL]" style="color:#1e40af;text-decoration:underline;">email settings</a> can set the frequency instead.</p>
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If [LIST_NAME] email is still arriving after [UNSUB_PROCESSING_PERIOD], write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a>.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+You are unsubscribed from [LIST_NAME]
+
+[EMAIL_ADDRESS] has been removed from [LIST_NAME]. A message that
+was already queued can still reach you during the next
+[UNSUB_PROCESSING_PERIOD].
+
+You will still get email about your account itself, if you have
+one: receipts, security notices, and replies to messages you send
+us.
+
+If you wanted fewer emails rather than none, your email settings
+can set the frequency instead:
+
+[SECONDARY_URL]
+
+If [LIST_NAME] email is still arriving after
+[UNSUB_PROCESSING_PERIOD], write to [SUPPORT_EMAIL].
+
+[SIGNOFF_NAME], [COMPANY_NAME]

@@ -1,0 +1,44 @@
+Nothing changes until you confirm, and we have also sent a notice to the
+old address.
+
+Confirm your new email address
+
+A request was made to change the email address on the
+[PRODUCT_NAME] account from [OLD_EMAIL_ADDRESS] to
+[NEW_EMAIL_ADDRESS]. We sent this message to the new address to
+check that it reaches you. We have also sent a notice of this
+request to the old address.
+
+Confirm this address:
+
+[CTA_URL]
+
+This link expires at [EXPIRY_ABSOLUTE] - [EXPIRY_RELATIVE] after it
+was sent.
+
+Important: The change does not take effect until you confirm from
+this address. Until then, [OLD_EMAIL_ADDRESS] stays the address on
+the account. If you did not ask for this, do not confirm: ignore
+this email and nothing changes on the account.
+
+We will never ask you for your password by email. If anything here
+looks wrong, reply to this email, or write to [SUPPORT_EMAIL]. A
+real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because someone asked to move the
+[PRODUCT_NAME] account registered to [OLD_EMAIL_ADDRESS] over to this
+address.
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

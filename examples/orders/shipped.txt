@@ -1,0 +1,62 @@
+Tracking is in this email. Movement can take a few hours to appear.
+
+Your order has shipped
+
+Order FW-10023 is on its way to the shipping address below.
+UPS has the parcel, and delivery is estimated for
+11-13 September 2026.
+
+Shipment details
+
+Order number: FW-10023
+Carrier: UPS
+Tracking number: 1Z999AA10123456784
+Estimated delivery: 11-13 September 2026
+
+Track your parcel:
+
+https://fernway.example/track/1Z999AA10123456784
+
+Tracking can take a few hours to show movement. UPS creates
+the label first and scans the parcel later, so the tracking page can
+sit empty for a while even though the parcel is with them.
+
+Shipping address
+
+Priya Raman
+Brightpath Mechanical
+1420 5th Avenue, Suite 300
+Seattle, WA 98101
+United States
+
+Items in this shipment
+
+Item: Fernway RT-2 rugged scanner
+Standard grip / 2-year warranty
+Qty: 2
+Amount: USD 498.00
+
+If order FW-10023 is shipping in more than one parcel, the
+rest follows separately. Each parcel gets its own email with its own
+tracking number.
+
+If the parcel has not arrived by 11-13 September 2026, reply to this
+email, or write to support@fernway.example. A real person reads every
+message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because a parcel from order FW-10023
+left our warehouse for the shipping address on the order.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

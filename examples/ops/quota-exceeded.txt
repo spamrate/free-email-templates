@@ -1,0 +1,53 @@
+Here is what stops working, what keeps working, and when it resets.
+
+You have reached your API requests limit
+
+Your Fernway account passed its API requests limit at 14:05 UTC on 7
+September 2026. The figures below are what we recorded for the current
+billing period.
+
+Reaching a limit is a normal result of using the account. This
+email is a record of what changed, not a bill.
+
+Limit details
+
+Limit: API requests
+Used: 512,400 of 500,000
+Period: 7 Sep - 7 Oct 2026
+What happens now: Further requests return a 429 until the period resets
+
+Important: This stops New API requests and scheduled exports until the
+period resets. It does not stop The web app, the mobile app, and
+everything already stored.
+
+Every plan, its limits and its price are listed on one page.
+Opening that page does not change your plan.
+
+See plans and limits:
+
+https://fernway.example/a/9f2a1c7e
+
+At the start of the next billing period, 1 October 2026, the
+count returns to zero and what stopped starts working again. That
+happens on its own, whether or not you change plan.
+
+If the figures here do not match what you see in the account, reply to
+this email or write to support@fernway.example. A real person reads
+every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because priya@brightpath.example is on the
+Fernway account that reached a usage limit.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

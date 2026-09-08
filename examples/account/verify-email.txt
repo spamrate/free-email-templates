@@ -1,0 +1,38 @@
+The link expires, and nothing will happen if you ignore this email.
+
+Confirm your email address
+
+This address, priya@brightpath.example, was used to create a Fernway
+account. Confirm it to finish setting up the account.
+
+Confirm your email address:
+
+https://fernway.example/a/9f2a1c7e
+
+This link expires at 14:35 UTC on 7 September 2026 - 30 minutes after it
+was sent.
+
+If you did not sign up for Fernway, ignore this email.
+Nothing will happen and the address will not be added to any
+account.
+
+We will never ask you for your password by email. If anything here
+looks wrong, reply to this email, or write to support@fernway.example. A
+real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because priya@brightpath.example was
+entered to create a Fernway account.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

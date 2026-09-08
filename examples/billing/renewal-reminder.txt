@@ -1,0 +1,48 @@
+The date, the amount, the card, and how to cancel before the charge.
+
+Your subscription renews on 7 October 2026
+
+Your Fernway subscription renews automatically on
+7 October 2026. On that date the Visa card ending in
+4242 will be charged USD 588.00 for the next
+7 Sep - 7 Oct 2026. No action is needed if you want the subscription
+to continue.
+
+Your subscription
+
+Plan: Crew
+Renews on: 7 October 2026
+Amount: USD 588.00
+Payment method: Visa ending in 4242
+Billing period: 7 Sep - 7 Oct 2026
+
+Important: To stop the renewal, cancel before 7 October 2026.
+Open your subscription settings with the button below, then end the
+subscription there. You will not be charged USD 588.00,
+and you keep access to Fernway until 7 October 2026.
+
+Manage your subscription:
+
+https://fernway.example/settings/security
+
+If anything here does not match what you expected, reply to this
+email, or write to support@fernway.example. A real person reads every
+message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because the Fernway subscription on the
+account registered to priya@brightpath.example renews automatically on 7
+October 2026.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

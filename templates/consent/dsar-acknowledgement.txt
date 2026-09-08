@@ -1,0 +1,55 @@
+Your reference, the type of request, and the date we must reply by.
+
+Your data request has been received
+
+We received your request about the personal data that
+[COMPANY_NAME] holds about you. The request type is
+[REQUEST_TYPE], and its reference is [REQUEST_REFERENCE]. Quote
+that reference in any message you send us about this request.
+
+Request details
+
+Reference: [REQUEST_REFERENCE]
+Request type: [REQUEST_TYPE]
+Received: [EVENT_TIME]
+Response due by: [RESPONSE_DUE_DATE]
+
+What happens next
+
+We first check that the request came from the person the data is
+about. If we can match it to the account registered to
+[EMAIL_ADDRESS], no further step is needed.
+
+If we cannot, we will write to [EMAIL_ADDRESS] from
+[SUPPORT_EMAIL] and ask you for something that confirms who you
+are. We will never ask you for your password.
+
+We will then work through the request and write to you with our
+response on or before [RESPONSE_DUE_DATE].
+
+The response date can be extended in specific circumstances, for
+example when a request is complex or when you have made several
+requests at once. If that happens here, we will tell you before
+[RESPONSE_DUE_DATE], and give you the new date and the reason for
+it.
+
+Questions about this request go to [SUPPORT_EMAIL], or you can
+reply to this email. Quote [REQUEST_REFERENCE] so we can find the
+request.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because a request was made to
+[COMPANY_NAME] about the personal data held for [EMAIL_ADDRESS].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

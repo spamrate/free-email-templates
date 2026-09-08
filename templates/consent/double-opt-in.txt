@@ -1,0 +1,41 @@
+One link confirms the address. Ignore this email and nothing is sent.
+
+Confirm your subscription
+
+This address, [EMAIL_ADDRESS], was entered on a signup form for
+[PRODUCT_NAME]. Confirm that the address is yours and [LIST_NAME]
+will start arriving. Until then nothing is sent to this address.
+
+[LIST_NAME] is sent [SEND_FREQUENCY]. That is the whole of it: this
+link adds the address to that one list and nothing else.
+
+Confirm your subscription:
+
+[CTA_URL]
+
+This link expires at [EXPIRY_ABSOLUTE] - [EXPIRY_RELATIVE] after it
+was sent. After that, enter the address on the form again to get a
+new link.
+
+If you did not sign up, you need do nothing at all. No further
+email will arrive, and the address is discarded.
+
+If anything here looks wrong, reply to this email, or write to
+[SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because [EMAIL_ADDRESS] was entered on a
+signup form for [LIST_NAME].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

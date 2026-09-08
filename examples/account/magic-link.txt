@@ -1,0 +1,43 @@
+The link signs in the device that opens it, so do not forward this
+email.
+
+Here is your sign-in link
+
+Someone asked to sign in to Fernway as priya@brightpath.example. If
+that was you, open the link below to finish. There is no password
+to type, and Fernway will never ask you for one.
+
+Sign in to Fernway:
+
+https://fernway.example/a/9f2a1c7e
+
+This link expires at 14:35 UTC on 7 September 2026 - 30 minutes after it
+was sent, and it works once. After it signs you in, or after that
+time, it stops working and you will need a new one.
+
+The link signs in the device that opens it, so do not forward this
+email to anyone.
+
+Important: If you did not ask to sign in, ignore this email. The
+link cannot be used by anyone who does not have this mailbox, and
+nothing changes on your account until it is opened.
+
+Questions about this sign-in? Reply to this email, or write to
+support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because someone asked to sign in to
+Fernway with priya@brightpath.example.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

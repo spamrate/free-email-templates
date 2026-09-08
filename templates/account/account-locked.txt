@@ -1,0 +1,52 @@
+Nothing has been deleted. Verify that it is you and the lock clears.
+
+Your account is locked
+
+The [PRODUCT_NAME] account registered to [EMAIL_ADDRESS] was locked
+at [EVENT_TIME]. We lock an account when the activity on it does
+not match the person who owns it. Nothing in the account has been
+changed or deleted.
+
+To use the account again, verify that it is you. That clears the
+lock.
+
+Details of the lock
+
+Account: [EMAIL_ADDRESS]
+When: [EVENT_TIME]
+Reason: [LOCK_REASON]
+
+Unlock your account:
+
+[CTA_URL]
+
+This link expires at [EXPIRY_ABSOLUTE] - [EXPIRY_RELATIVE] after it
+was sent.
+
+If this was not you, someone else may be trying to get into your
+account. Unlock the account, then change your password to one you
+have not used anywhere else.
+
+Important: [COMPANY_NAME] will never ask you for your password or
+for a code to unlock an account. If someone asks you for either,
+they are not us.
+
+If you cannot get back in, reply to this email, or write to
+[SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because the [PRODUCT_NAME] account
+registered to [EMAIL_ADDRESS] was locked at [EVENT_TIME].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

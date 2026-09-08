@@ -1,0 +1,66 @@
+Nothing has been deleted, and there is nothing you have to do today.
+
+Your Fernway account is still here
+
+You have not signed in to Fernway since 3 May 2026.
+The account is still here, and everything you put in it is still
+there. This email sets out where things stand, so you can decide
+what to do with it.
+
+What has changed in Fernway since then:
+
+- Marcus reassigned the Kensington boiler job to you. It moved from
+Thursday to Tuesday morning. - Three jobs closed without a signature
+this week. They need a signature before they can be invoiced. - The Q4
+parts price list is ready to review. Eleven items changed; the rest are
+unchanged.
+
+Sign in to your account:
+
+https://fernway.example/a/9f2a1c7e
+
+If you do nothing, nothing happens today. An account that is not
+used is kept for 90 days after the last sign-in. For this
+account that is 20 December 2026. Until then the account and
+everything in it stay as they are.
+
+After that the account and its data are deleted, and cannot be
+recovered. Signing in before then keeps the account, and starts
+that period again.
+
+If you would rather not keep the account, you can close your
+account yourself and delete its data now. You do not have to tell
+us why.
+
+Close your account:
+
+https://fernway.example/settings/security
+
+Unsubscribe at the bottom of this email to stop messages like this
+one. Unsubscribing stops the emails only. It does not close the
+account, and it does not delete anything.
+
+Questions about the account, or about what happens to your data?
+Reply to this email, or write to support@fernway.example. A real person
+reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because the Fernway account
+registered to priya@brightpath.example has not been signed in to since
+3 May 2026.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+
+Unsubscribe:
+
+https://fernway.example/u/6b41f0a9

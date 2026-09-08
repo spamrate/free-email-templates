@@ -1,0 +1,68 @@
+The money is already released. Your bank sets the day it lands on your
+statement.
+
+Your refund has been sent
+
+We have sent USD 648.27 back to Visa ending 4242 for
+order FW-10023. Nothing more is needed from you.
+
+Refund details
+
+Order number: FW-10023
+Refund amount: USD 648.27
+Refunded to: Visa ending 4242
+Expected within: 5 to 10 business days
+
+Items refunded from order FW-10023
+
+Item: Fernway RT-2 rugged scanner
+Standard grip / 2-year warranty
+Qty: 2
+Amount: USD 498.00
+
+Item: RT-2 vehicle charging dock
+12V, hardwired
+Qty: 2
+Amount: USD 90.00
+
+Refund totals
+
+Subtotal refunded: USD 588.00
+Shipping refunded: USD 0.00
+Tax refunded: USD 60.27
+Total refunded: USD 648.27
+
+Fernway released the money as soon as the refund was
+approved. From that point your bank or card issuer decides when it
+appears on your statement, and that step is not ours to speed up.
+It is why we give a range of days and not a single date.
+
+View your order:
+
+https://fernway.example/orders/10023
+
+If the money has not reached Visa ending 4242 within 5 to 10 business
+days, ask your bank or card issuer to look for a pending credit against
+order FW-10023. If they have no record of it, reply to this email and we
+will trace it.
+
+If a line on this refund does not look right, reply to this email,
+or write to support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because a refund was issued on order
+FW-10023, placed with the Fernway account registered to
+priya@brightpath.example.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

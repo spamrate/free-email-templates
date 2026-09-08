@@ -1,0 +1,17 @@
+@@PREHEADER@@
+
+@@TEXT_BODY@@
+
+----------------------------------------------------------------
+
+@@FOOTER_REASON@@
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+@@TEXT_UNSUB@@

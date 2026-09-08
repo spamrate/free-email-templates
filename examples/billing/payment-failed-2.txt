@@ -1,0 +1,52 @@
+The payment has still not gone through. Your service is not affected
+yet.
+
+Second notice: your payment failed
+
+The payment for your Fernway subscription has still not gone
+through. This is the second notice. Your service is running as
+normal for now.
+
+Most failed payments are a card that has expired or been replaced.
+Updating the card on file fixes it, and we try the payment again on
+10 September 2026.
+
+Details of the payment
+
+Amount: USD 588.00
+Plan: Crew
+Payment method: Visa ending 4242
+Next attempt: 10 September 2026
+
+Important: If the payment has not gone through by 21 September 2026,
+the subscription is paused on that date. Fernway then
+becomes read-only: you can still sign in, read and export your
+data, and nothing is deleted.
+
+Update payment method:
+
+https://fernway.example/a/9f2a1c7e
+
+If you have already updated the card, no further action is needed.
+The attempt on 10 September 2026 will use the new card.
+
+If the amount or the card above is wrong, reply to this email, or
+write to support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because a payment for the Fernway
+subscription on the account registered to priya@brightpath.example has
+not gone through.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

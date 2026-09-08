@@ -1,0 +1,43 @@
+One link confirms the address. Ignore this email and nothing is sent.
+
+Confirm your subscription
+
+This address, priya@brightpath.example, was entered on a signup form for
+Fernway. Confirm that the address is yours and the Fernway product
+newsletter will start arriving. Until then nothing is sent to this
+address.
+
+the Fernway product newsletter is sent about twice a month. That is the
+whole of it: this link adds the address to that one list and nothing
+else.
+
+Confirm your subscription:
+
+https://fernway.example/a/9f2a1c7e
+
+This link expires at 14:35 UTC on 7 September 2026 - 30 minutes after it
+was sent. After that, enter the address on the form again to get a
+new link.
+
+If you did not sign up, you need do nothing at all. No further
+email will arrive, and the address is discarded.
+
+If anything here looks wrong, reply to this email, or write to
+support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because priya@brightpath.example was
+entered on a signup form for the Fernway product newsletter.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

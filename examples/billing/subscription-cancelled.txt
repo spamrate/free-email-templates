@@ -1,0 +1,49 @@
+What happens to your data, how long it is kept, and how to come back.
+
+Your subscription is cancelled
+
+Your Crew subscription to Fernway is cancelled. There
+will be no more charges.
+
+Fernway keeps working until 21 September 2026. After that
+date the paid features stop and the account stays open with no
+plan.
+
+Details of the cancellation
+
+Plan: Crew
+Cancelled on: 14:05 UTC on 7 September 2026
+Access until: 21 September 2026
+Final charge: USD 588.00 on 7 September 2026
+
+Your data is kept for 90 days after 21 September 2026,
+until 20 December 2026. Nothing is deleted before then. If you
+reactivate before that date, your account comes back with the same
+data. After that date the data is deleted and cannot be recovered.
+
+To start the subscription again, use the link below. The plan and
+the price in effect at that time apply.
+
+Reactivate your subscription:
+
+https://fernway.example/settings/security
+
+If this is not what you expected, reply to this email, or write to
+support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because the Fernway subscription on
+the account registered to priya@brightpath.example was cancelled.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

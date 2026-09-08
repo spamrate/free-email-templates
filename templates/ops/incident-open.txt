@@ -1,0 +1,50 @@
+What is affected, what we know so far, and when we will update you.
+
+[PRODUCT_NAME] is not working normally
+
+The problem started at [EVENT_TIME] and is affecting [AFFECTED_SCOPE].
+Every time in this email carries its timezone. We do not know the
+cause yet, and we are not going to guess in this email. Everything
+we have confirmed is below.
+
+What we know so far
+
+Status: [INCIDENT_STATUS]
+Started: [EVENT_TIME]
+Affected: [AFFECTED_SCOPE]
+Next update: [NEXT_UPDATE_TIME]
+
+Important: [WORKAROUND_TEXT]
+
+We will send the next update by [NEXT_UPDATE_TIME], whether or not
+the problem is fixed by then. We are not putting a time on the fix,
+because we do not have one to give. Sorry for the trouble this is
+causing you.
+
+The status page has the current state and every update we have
+posted.
+
+Open the status page:
+
+[STATUS_PAGE_URL]
+
+If this is blocking something urgent, reply to this email or write
+to [SUPPORT_EMAIL]. Tell us what you were doing when it failed. It
+helps.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because [EMAIL_ADDRESS] is on a
+[PRODUCT_NAME] account affected by this incident.
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

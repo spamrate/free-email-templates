@@ -1,0 +1,51 @@
+The exact date, what happens then, and how to cancel with no charge.
+
+Your trial ends on [TRIAL_END_DATE]
+
+Your [PRODUCT_NAME] trial ends on [TRIAL_END_DATE]. On that date the
+[CARD_BRAND] card ending in [CARD_LAST4] will be charged
+[CURRENCY] [AMOUNT] for [PLAN_NAME], and your account stays open. If
+you do nothing, that is what happens.
+
+You can confirm the plan, change it, or cancel before that date.
+
+Your trial
+
+Trial ends: [TRIAL_END_DATE]
+Plan: [PLAN_NAME]
+Amount: [CURRENCY] [AMOUNT] per [BILLING_PERIOD]
+Payment method: [CARD_BRAND] ending in [CARD_LAST4]
+
+Confirm your plan:
+
+[CTA_URL]
+
+Important: If you do not want to continue, cancel before
+[TRIAL_END_DATE] and you will not be charged. You keep access to
+[PRODUCT_NAME] until that date.
+
+Cancel your trial:
+
+[SECONDARY_URL]
+
+If anything here does not match what you expected, reply to this
+email, or write to [SUPPORT_EMAIL]. A real person reads every
+message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because the [PRODUCT_NAME] account
+registered to [EMAIL_ADDRESS] is on a trial that ends on
+[TRIAL_END_DATE].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

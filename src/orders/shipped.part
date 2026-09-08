@@ -1,0 +1,181 @@
+--- meta
+title: Your order [ORDER_NUMBER] has shipped
+aria: Your order [ORDER_NUMBER] has shipped
+preheader: Tracking is in this email. Movement can take a few hours to appear.
+subject: Your order [ORDER_NUMBER] has shipped
+footer: transactional
+reason: You are receiving this email because a parcel from order [ORDER_NUMBER] left our warehouse for the shipping address on the order.
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Your order has shipped</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Order [ORDER_NUMBER] is on its way to the shipping address below. [CARRIER] has the parcel, and delivery is estimated for [DELIVERY_ESTIMATE].</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Shipment details</caption>
+<tbody>
+<tr>
+<th class="tot-label" scope="row" align="left" width="45%"
+    style="width:45%;padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Order number</th>
+<td class="tot-grand-value" align="right" width="55%"
+    style="width:55%;padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ORDER_NUMBER]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Carrier</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CARRIER]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Tracking number</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[TRACKING_NUMBER]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Estimated delivery</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[DELIVERY_ESTIMATE]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:32px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="btn"
+   href="[TRACKING_URL]"
+   style="background-color:#1e40af;border:1px solid #1e40af;border-radius:6px;color:#ffffff;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#1e40af;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->Track your parcel<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the button above does not work, copy and paste this address into your browser:<br>
+<a class="link" href="[TRACKING_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[TRACKING_URL]</a></p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">Tracking can take a few hours to show movement. [CARRIER] creates the label first and scans the parcel later, so the tracking page can sit empty for a while even though the parcel is with them.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td style="padding:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">
+<span class="t-sec" style="font-size:13px;line-height:20px;color:#4a4a4a;">Shipping address</span><br>
+<address class="t-pri unstyle-auto-detected-links" style="margin:0;font-style:normal;font-size:14px;line-height:22px;color:#1a1a1a;">[SHIPPING_ADDRESS]</address>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Items in this shipment</caption>
+<thead>
+<tr>
+<th class="th" scope="col" align="left" width="60%"
+    style="width:60%;padding:8px 8px 8px 0;text-align:left;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Item</th>
+<th class="th" scope="col" align="right" width="15%"
+    style="width:15%;padding:8px 8px;text-align:right;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Qty</th>
+<th class="th" scope="col" align="right" width="25%"
+    style="width:25%;padding:8px 0 8px 8px;text-align:right;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="td" scope="row" align="left"
+    style="padding:12px 8px 12px 0;text-align:left;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#1a1a1a;">[ITEM_1_NAME]<br><span class="t-sec" style="font-size:13px;line-height:20px;color:#4a4a4a;">[ITEM_1_VARIANT]</span></th>
+<td class="td-num" align="right"
+    style="padding:12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ITEM_1_QTY]</td>
+<td class="td-num" align="right"
+    style="padding:12px 0 12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CURRENCY]&nbsp;[ITEM_1_AMOUNT]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">If order [ORDER_NUMBER] is shipping in more than one parcel, the rest follows separately. Each parcel gets its own email with its own tracking number.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the parcel has not arrived by [DELIVERY_ESTIMATE], reply to this email, or write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a>. A real person reads every message.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+Your order has shipped
+
+Order [ORDER_NUMBER] is on its way to the shipping address below.
+[CARRIER] has the parcel, and delivery is estimated for
+[DELIVERY_ESTIMATE].
+
+Shipment details
+
+Order number: [ORDER_NUMBER]
+Carrier: [CARRIER]
+Tracking number: [TRACKING_NUMBER]
+Estimated delivery: [DELIVERY_ESTIMATE]
+
+Track your parcel:
+
+[TRACKING_URL]
+
+Tracking can take a few hours to show movement. [CARRIER] creates
+the label first and scans the parcel later, so the tracking page can
+sit empty for a while even though the parcel is with them.
+
+Shipping address
+
+[SHIPPING_ADDRESS]
+
+Items in this shipment
+
+Item: [ITEM_1_NAME]
+[ITEM_1_VARIANT]
+Qty: [ITEM_1_QTY]
+Amount: [CURRENCY] [ITEM_1_AMOUNT]
+
+If order [ORDER_NUMBER] is shipping in more than one parcel, the
+rest follows separately. Each parcel gets its own email with its own
+tracking number.
+
+If the parcel has not arrived by [DELIVERY_ESTIMATE], reply to this
+email, or write to [SUPPORT_EMAIL]. A real person reads every
+message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

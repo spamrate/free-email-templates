@@ -1,0 +1,36 @@
+The removal is done. Account email, such as receipts, keeps arriving.
+
+You are unsubscribed from [LIST_NAME]
+
+[EMAIL_ADDRESS] has been removed from [LIST_NAME]. A message that
+was already queued can still reach you during the next
+[UNSUB_PROCESSING_PERIOD].
+
+You will still get email about your account itself, if you have
+one: receipts, security notices, and replies to messages you send
+us.
+
+If you wanted fewer emails rather than none, your email settings
+can set the frequency instead:
+
+[SECONDARY_URL]
+
+If [LIST_NAME] email is still arriving after
+[UNSUB_PROCESSING_PERIOD], write to [SUPPORT_EMAIL].
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because [EMAIL_ADDRESS] asked to be removed
+from [LIST_NAME].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

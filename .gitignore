@@ -1,0 +1,61 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.\#*
+\#*\#
+
+# Python — tools/assemble.py imports tools/demo.py, so this appears the first
+# time a maintainer runs the build
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Agent and automation scratch output
+.playwright-mcp/
+.claude/
+*.log
+
+# Local email testing: never commit a real message. A .eml exported from your own
+# inbox to check a render carries real addresses, headers and often a tracking pixel.
+*.eml
+*.mbox
+
+# Secrets. Nothing in this repository needs credentials, but people testing sends
+# put SMTP keys in a .env and then commit it.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node — not used by this project, but people add linters and screenshot tools
+node_modules/
+dist/
+build/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml

@@ -1,0 +1,126 @@
+--- meta
+title: Your [PRODUCT_NAME] account is still here
+aria: Your [PRODUCT_NAME] account is still here
+preheader: Nothing has been deleted, and there is nothing you have to do today.
+subject: Your [PRODUCT_NAME] account is unused
+footer: commercial
+reason: You are receiving this email because the [PRODUCT_NAME] account registered to [EMAIL_ADDRESS] has not been signed in to since [LAST_ACTIVE_DATE].
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Your [PRODUCT_NAME] account is still here</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">You have not signed in to [PRODUCT_NAME] since [LAST_ACTIVE_DATE]. The account is still here, and everything you put in it is still there. This email sets out where things stand, so you can decide what to do with it.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0 0 12px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">What has changed in [PRODUCT_NAME] since then:</p>
+<ul style="padding:0;margin:0;list-style-type:disc;">
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[ITEM_1_TITLE]. [ITEM_1_SUMMARY]</li>
+<li class="t-pri sm-text" style="margin:0 0 10px 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[ITEM_2_TITLE]. [ITEM_2_SUMMARY]</li>
+<li class="t-pri sm-text" style="margin:0 24px;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[ITEM_3_TITLE]. [ITEM_3_SUMMARY]</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:28px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="btn"
+   href="[CTA_URL]"
+   style="background-color:#1e40af;border:1px solid #1e40af;border-radius:6px;color:#ffffff;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#1e40af;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->Sign in to your account<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the button above does not work, copy and paste this address into your browser:<br>
+<a class="link" href="[CTA_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[CTA_URL]</a></p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">If you do nothing, nothing happens today. An account that is not used is kept for [RETENTION_PERIOD] after the last sign-in. For this account that is <strong>[RETENTION_END_DATE]</strong>. Until then the account and everything in it stay as they are.</p>
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">After that the account and its data are deleted, and cannot be recovered. Signing in before then keeps the account, and starts that period again.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">If you would rather not keep the account, you can <a class="link" href="[SECONDARY_URL]" style="color:#1e40af;text-decoration:underline;">close your account</a> yourself and delete its data now. You do not have to tell us why.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">Unsubscribe at the bottom of this email to stop messages like this one. Unsubscribing stops the emails only. It does not close the account, and it does not delete anything.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">Questions about the account, or about what happens to your data? Reply to this email, or write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a>. A real person reads every message.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+Your [PRODUCT_NAME] account is still here
+
+You have not signed in to [PRODUCT_NAME] since [LAST_ACTIVE_DATE].
+The account is still here, and everything you put in it is still
+there. This email sets out where things stand, so you can decide
+what to do with it.
+
+What has changed in [PRODUCT_NAME] since then:
+
+- [ITEM_1_TITLE]. [ITEM_1_SUMMARY]
+- [ITEM_2_TITLE]. [ITEM_2_SUMMARY]
+- [ITEM_3_TITLE]. [ITEM_3_SUMMARY]
+
+Sign in to your account:
+
+[CTA_URL]
+
+If you do nothing, nothing happens today. An account that is not
+used is kept for [RETENTION_PERIOD] after the last sign-in. For this
+account that is [RETENTION_END_DATE]. Until then the account and
+everything in it stay as they are.
+
+After that the account and its data are deleted, and cannot be
+recovered. Signing in before then keeps the account, and starts
+that period again.
+
+If you would rather not keep the account, you can close your
+account yourself and delete its data now. You do not have to tell
+us why.
+
+Close your account:
+
+[SECONDARY_URL]
+
+Unsubscribe at the bottom of this email to stop messages like this
+one. Unsubscribing stops the emails only. It does not close the
+account, and it does not delete anything.
+
+Questions about the account, or about what happens to your data?
+Reply to this email, or write to [SUPPORT_EMAIL]. A real person
+reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

@@ -1,0 +1,43 @@
+The link signs in the device that opens it, so do not forward this
+email.
+
+Here is your sign-in link
+
+Someone asked to sign in to [PRODUCT_NAME] as [EMAIL_ADDRESS]. If
+that was you, open the link below to finish. There is no password
+to type, and [COMPANY_NAME] will never ask you for one.
+
+Sign in to [PRODUCT_NAME]:
+
+[CTA_URL]
+
+This link expires at [EXPIRY_ABSOLUTE] - [EXPIRY_RELATIVE] after it
+was sent, and it works once. After it signs you in, or after that
+time, it stops working and you will need a new one.
+
+The link signs in the device that opens it, so do not forward this
+email to anyone.
+
+Important: If you did not ask to sign in, ignore this email. The
+link cannot be used by anyone who does not have this mailbox, and
+nothing changes on your account until it is opened.
+
+Questions about this sign-in? Reply to this email, or write to
+[SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because someone asked to sign in to
+[PRODUCT_NAME] with [EMAIL_ADDRESS].
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

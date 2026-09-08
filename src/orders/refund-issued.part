@@ -1,0 +1,220 @@
+--- meta
+title: Your refund for order [ORDER_NUMBER]
+aria: Your refund for order [ORDER_NUMBER]
+preheader: The money is already released. Your bank sets the day it lands on your statement.
+subject: Your refund for order [ORDER_NUMBER]
+footer: transactional
+reason: You are receiving this email because a refund was issued on order [ORDER_NUMBER], placed with the [PRODUCT_NAME] account registered to [EMAIL_ADDRESS].
+--- html
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<h1 class="t-pri"
+    style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:24px;line-height:32px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Your refund has been sent</h1>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:20px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">We have sent [CURRENCY]&nbsp;[REFUND_AMOUNT] back to [REFUND_METHOD] for order [ORDER_NUMBER]. Nothing more is needed from you.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Refund details</caption>
+<tbody>
+<tr>
+<th class="tot-label" scope="row" align="left" width="45%"
+    style="width:45%;padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Order number</th>
+<td class="tot-grand-value" align="right" width="55%"
+    style="width:55%;padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ORDER_NUMBER]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Refund amount</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CURRENCY]&nbsp;[REFUND_AMOUNT]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Refunded to</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[REFUND_METHOD]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:6px 8px 6px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Expected within</th>
+<td class="tot-grand-value" align="right"
+    style="padding:6px 0 6px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[REFUND_DAYS]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:32px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Items refunded from order [ORDER_NUMBER]</caption>
+<thead>
+<tr>
+<th class="th" scope="col" align="left" width="60%"
+    style="width:60%;padding:8px 8px 8px 0;text-align:left;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Item</th>
+<th class="th" scope="col" align="right" width="15%"
+    style="width:15%;padding:8px 8px;text-align:right;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Qty</th>
+<th class="th" scope="col" align="right" width="25%"
+    style="width:25%;padding:8px 0 8px 8px;text-align:right;border-bottom:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Amount</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="td" scope="row" align="left"
+    style="padding:12px 8px 12px 0;text-align:left;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#1a1a1a;">[ITEM_1_NAME]<br><span class="t-sec" style="font-size:13px;line-height:20px;color:#4a4a4a;">[ITEM_1_VARIANT]</span></th>
+<td class="td-num" align="right"
+    style="padding:12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ITEM_1_QTY]</td>
+<td class="td-num" align="right"
+    style="padding:12px 0 12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CURRENCY]&nbsp;[ITEM_1_AMOUNT]</td>
+</tr>
+<tr>
+<th class="td" scope="row" align="left"
+    style="padding:12px 8px 12px 0;text-align:left;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#1a1a1a;">[ITEM_2_NAME]<br><span class="t-sec" style="font-size:13px;line-height:20px;color:#4a4a4a;">[ITEM_2_VARIANT]</span></th>
+<td class="td-num" align="right"
+    style="padding:12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[ITEM_2_QTY]</td>
+<td class="td-num" align="right"
+    style="padding:12px 0 12px 8px;text-align:right;border-bottom:1px solid #e4e4e7;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:15px;line-height:22px;mso-line-height-rule:exactly;color:#1a1a1a;">[CURRENCY]&nbsp;[ITEM_2_AMOUNT]</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:16px 32px 0 32px;">
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+       style="width:100%;border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;">
+<caption class="t-sec"
+         style="padding:0 0 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;mso-line-height-rule:exactly;color:#4a4a4a;">Refund totals</caption>
+<tbody>
+<tr>
+<th class="tot-label" scope="row" align="left" width="65%"
+    style="width:65%;padding:8px 8px 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Subtotal refunded</th>
+<td class="tot-value" align="right" width="35%"
+    style="width:35%;padding:8px 0 8px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[CURRENCY]&nbsp;[SUBTOTAL]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:8px 8px 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Shipping refunded</th>
+<td class="tot-value" align="right"
+    style="padding:8px 0 8px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[CURRENCY]&nbsp;[SHIPPING]</td>
+</tr>
+<tr>
+<th class="tot-label" scope="row" align="left"
+    style="padding:8px 8px 8px 0;text-align:left;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;font-weight:normal;color:#4a4a4a;">Tax refunded</th>
+<td class="tot-value" align="right"
+    style="padding:8px 0 8px 8px;text-align:right;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[CURRENCY]&nbsp;[TAX]</td>
+</tr>
+<tr>
+<th class="tot-grand-label" scope="row" align="left"
+    style="padding:12px 8px 0 0;text-align:left;border-top:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;">Total refunded</th>
+<td class="tot-grand-value" align="right"
+    style="padding:12px 0 0 8px;text-align:right;border-top:2px solid #1a1a1a;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:24px;mso-line-height-rule:exactly;font-weight:bold;color:#1a1a1a;"><strong>[CURRENCY]&nbsp;[REFUND_AMOUNT]</strong></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">[COMPANY_NAME] released the money as soon as the refund was approved. From that point your bank or card issuer decides when it appears on your statement, and that step is not ours to speed up. It is why we give a range of days and not a single date.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" align="left" style="padding:32px 32px 0 32px;text-align:left;mso-line-height-rule:at-least;">
+<a class="ghost"
+   href="[ORDER_URL]"
+   style="background-color:#ffffff;border:1px solid #6b6b70;border-radius:6px;color:#1a1a1a;display:inline-block;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;font-weight:bold;line-height:22px;mso-padding-alt:0;padding:12px 32px;text-align:center;text-decoration:none;text-underline-color:#ffffff;"><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:150%;" hidden>&emsp;</i><span style="mso-text-raise:75%;"><![endif]-->View your order<!--[if mso]></span><i style="mso-font-width:200%;" hidden>&emsp;&#8203;</i><![endif]--></a>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If the button above does not work, copy and paste this address into your browser:<br>
+<a class="link" href="[ORDER_URL]" style="color:#1e40af;text-decoration:underline;word-break:break-all;">[ORDER_URL]</a></p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 0 32px;">
+<p class="t-pri sm-text"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:16px;line-height:26px;mso-line-height-rule:exactly;color:#1a1a1a;">If the money has not reached [REFUND_METHOD] within <strong>[REFUND_DAYS]</strong>, ask your bank or card issuer to look for a pending credit against order [ORDER_NUMBER]. If they have no record of it, reply to this email and we will trace it.</p>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:28px 32px 0 32px;">
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+<tr>
+<td class="rule" height="1" aria-hidden="true" style="background-color:#e4e4e7;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td class="sm-pad" style="padding:24px 32px 32px 32px;">
+<p class="t-sec"
+   style="margin:0 0 16px 0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">If a line on this refund does not look right, reply to this email, or write to <a class="link" href="mailto:[SUPPORT_EMAIL]" style="color:#1e40af;text-decoration:underline;">[SUPPORT_EMAIL]</a>. A real person reads every message.</p>
+<p class="t-sec"
+   style="margin:0;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;font-size:14px;line-height:22px;mso-line-height-rule:exactly;color:#4a4a4a;">[SIGNOFF_NAME], [COMPANY_NAME]</p>
+</td>
+</tr>
+--- text
+Your refund has been sent
+
+We have sent [CURRENCY] [REFUND_AMOUNT] back to [REFUND_METHOD] for
+order [ORDER_NUMBER]. Nothing more is needed from you.
+
+Refund details
+
+Order number: [ORDER_NUMBER]
+Refund amount: [CURRENCY] [REFUND_AMOUNT]
+Refunded to: [REFUND_METHOD]
+Expected within: [REFUND_DAYS]
+
+Items refunded from order [ORDER_NUMBER]
+
+Item: [ITEM_1_NAME]
+[ITEM_1_VARIANT]
+Qty: [ITEM_1_QTY]
+Amount: [CURRENCY] [ITEM_1_AMOUNT]
+
+Item: [ITEM_2_NAME]
+[ITEM_2_VARIANT]
+Qty: [ITEM_2_QTY]
+Amount: [CURRENCY] [ITEM_2_AMOUNT]
+
+Refund totals
+
+Subtotal refunded: [CURRENCY] [SUBTOTAL]
+Shipping refunded: [CURRENCY] [SHIPPING]
+Tax refunded: [CURRENCY] [TAX]
+Total refunded: [CURRENCY] [REFUND_AMOUNT]
+
+[COMPANY_NAME] released the money as soon as the refund was
+approved. From that point your bank or card issuer decides when it
+appears on your statement, and that step is not ours to speed up.
+It is why we give a range of days and not a single date.
+
+View your order:
+
+[ORDER_URL]
+
+If the money has not reached [REFUND_METHOD] within
+[REFUND_DAYS], ask your bank or card issuer to look for a pending
+credit against order [ORDER_NUMBER]. If they have no record of it,
+reply to this email and we will trace it.
+
+If a line on this refund does not look right, reply to this email,
+or write to [SUPPORT_EMAIL]. A real person reads every message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]

@@ -1,0 +1,58 @@
+Payment received. Keep this email as your record of the charge.
+
+Your payment receipt
+
+We charged USD 648.27 to your Visa ending
+4242 on 7 September 2026. Your Crew plan is paid
+through 7 Sep - 7 Oct 2026.
+
+This email is your receipt. Keep it for your records, or for a tax
+or expense claim.
+
+Receipt details
+
+Invoice number: FW-2026-04417
+Date: 7 September 2026
+Billing period: 7 Sep - 7 Oct 2026
+Payment method: Visa ending 4242
+
+Items on invoice FW-2026-04417
+
+Item: Crew
+7 Sep - 7 Oct 2026
+Qty: 12
+Amount: USD 588.00
+
+Invoice totals
+
+Subtotal: USD 588.00
+Tax: USD 60.27
+Total paid: USD 648.27
+
+Download invoice:
+
+https://fernway.example/settings/security
+
+This plan renews automatically. The next charge falls due on
+7 October 2026, to the same card, unless you cancel before that
+date.
+
+If a line on this receipt does not look right, reply to this email,
+or write to support@fernway.example. A real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because a payment was charged to the
+Fernway account registered to priya@brightpath.example.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

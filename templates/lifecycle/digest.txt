@@ -1,0 +1,67 @@
+Three items, the numbers for the period, and a link to the full archive.
+
+Your digest for [PERIOD_LABEL]
+
+Here is what is new in [PRODUCT_NAME] for [PERIOD_LABEL]. Three
+items are below. Everything else from the period is in the archive.
+
+Numbers for [PERIOD_LABEL]
+
+[METRIC_1_LABEL]: [METRIC_1_VALUE]
+[METRIC_2_LABEL]: [METRIC_2_VALUE]
+[METRIC_3_LABEL]: [METRIC_3_VALUE]
+
+If your mail client cuts this message short, you can read the full
+Read the full archive on the web:
+
+[ALL_ITEMS_URL]
+
+[ITEM_1_TITLE]
+
+[ITEM_1_SUMMARY]
+
+[ITEM_1_URL]
+
+[ITEM_2_TITLE]
+
+[ITEM_2_SUMMARY]
+
+[ITEM_2_URL]
+
+[ITEM_3_TITLE]
+
+[ITEM_3_SUMMARY]
+
+[ITEM_3_URL]
+
+Open the full archive:
+
+[ALL_ITEMS_URL]
+
+This digest arrives on a schedule. To get it less often, more
+often, or not at all, open your email settings:
+
+[SECONDARY_URL]
+
+The unsubscribe link at the bottom of this email stops it as well,
+and takes effect right away.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because [EMAIL_ADDRESS] is signed up for
+the [PRODUCT_NAME] digest.
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+
+Unsubscribe:
+
+[UNSUBSCRIBE_URL]

@@ -1,0 +1,55 @@
+Your reference, the type of request, and the date we must reply by.
+
+Your data request has been received
+
+We received your request about the personal data that
+Fernway holds about you. The request type is
+A copy of your personal data, and its reference is DSAR-2026-0431. Quote
+that reference in any message you send us about this request.
+
+Request details
+
+Reference: DSAR-2026-0431
+Request type: A copy of your personal data
+Received: 14:05 UTC on 7 September 2026
+Response due by: 7 October 2026
+
+What happens next
+
+We first check that the request came from the person the data is
+about. If we can match it to the account registered to
+priya@brightpath.example, no further step is needed.
+
+If we cannot, we will write to priya@brightpath.example from
+support@fernway.example and ask you for something that confirms who you
+are. We will never ask you for your password.
+
+We will then work through the request and write to you with our
+response on or before 7 October 2026.
+
+The response date can be extended in specific circumstances, for
+example when a request is complex or when you have made several
+requests at once. If that happens here, we will tell you before
+7 October 2026, and give you the new date and the reason for
+it.
+
+Questions about this request go to support@fernway.example, or you can
+reply to this email. Quote DSAR-2026-0431 so we can find the
+request.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because a request was made to
+Fernway about the personal data held for priya@brightpath.example.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

@@ -1,0 +1,52 @@
+Here is what stops working, what keeps working, and when it resets.
+
+You have reached your [QUOTA_NAME] limit
+
+Your [PRODUCT_NAME] account passed its [QUOTA_NAME] limit at
+[EVENT_TIME]. The figures below are what we recorded for the
+current billing period.
+
+Reaching a limit is a normal result of using the account. This
+email is a record of what changed, not a bill.
+
+Limit details
+
+Limit: [QUOTA_NAME]
+Used: [QUOTA_USED] of [QUOTA_LIMIT]
+Period: [BILLING_PERIOD]
+What happens now: [QUOTA_CONSEQUENCE]
+
+Important: This stops [QUOTA_STOPPED] until the period resets. It
+does not stop [QUOTA_UNAFFECTED].
+
+Every plan, its limits and its price are listed on one page.
+Opening that page does not change your plan.
+
+See plans and limits:
+
+[CTA_URL]
+
+At the start of the next billing period, [QUOTA_RESET_DATE], the
+count returns to zero and what stopped starts working again. That
+happens on its own, whether or not you change plan.
+
+If the figures here do not match what you see in the account, reply
+to this email or write to [SUPPORT_EMAIL]. A real person reads every
+message.
+
+[SIGNOFF_NAME], [COMPANY_NAME]
+
+----------------------------------------------------------------
+
+You are receiving this email because [EMAIL_ADDRESS] is on the
+[PRODUCT_NAME] account that reached a usage limit.
+
+[COMPANY_LEGAL_NAME]
+[COMPANY_ADDRESS]
+
+[COMPANY_URL]
+
+Privacy Policy:
+
+[PRIVACY_URL]
+

@@ -1,0 +1,36 @@
+The removal is done. Account email, such as receipts, keeps arriving.
+
+You are unsubscribed from the Fernway product newsletter
+
+priya@brightpath.example has been removed from the Fernway product
+newsletter. A message that was already queued can still reach you during
+the next 48 hours.
+
+You will still get email about your account itself, if you have
+one: receipts, security notices, and replies to messages you send
+us.
+
+If you wanted fewer emails rather than none, your email settings
+can set the frequency instead:
+
+https://fernway.example/settings/security
+
+If the Fernway product newsletter email is still arriving after
+48 hours, write to support@fernway.example.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because priya@brightpath.example asked to
+be removed from the Fernway product newsletter.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+

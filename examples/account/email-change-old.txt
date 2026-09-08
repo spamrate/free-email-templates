@@ -1,0 +1,47 @@
+You can cancel this until it takes effect. Cancel it now if it was not
+you.
+
+Your email address is changing
+
+A request was made at 14:05 UTC on 7 September 2026 to change the email
+address on your Fernway account from priya@brightpath.example to
+priya.raman@brightpath.example.
+
+Once the change takes effect, priya@brightpath.example will stop
+receiving mail from Fernway, and you will sign in with
+priya.raman@brightpath.example instead. This is the last message we will
+send to this address.
+
+Important: If you did not ask for this change, someone else may
+have access to your account. Cancel the change now and change
+your password.
+
+Cancel this change:
+
+https://fernway.example/settings/security
+
+You can cancel the change until 14:35 UTC on 7 September 2026 -
+30 minutes after this email was sent. After that the change
+takes effect and it cannot be stopped from this address.
+
+We will never ask you for your password by email. If anything here
+looks wrong, reply to this email, or write to support@fernway.example. A
+real person reads every message.
+
+Maya, Fernway
+
+----------------------------------------------------------------
+
+You are receiving this email because a request was made to change the
+email address on the Fernway account registered to
+priya@brightpath.example.
+
+Fernway Technologies Inc.
+1100 Alder Street, Suite 210, Portland, OR 97205, USA
+
+https://fernway.example
+
+Privacy Policy:
+
+https://fernway.example/privacy
+
