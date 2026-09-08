@@ -265,7 +265,7 @@ footer blocks. If you send through Campaign Monitor, substitute the tokens befor
 than relying on them to pass through.
 
 <!-- generated:placeholders -->
-**Every template uses these.** They are the ones you set once for your product.
+**Set once for your product.** Every template uses these.
 
 | Placeholder | Example | Notes |
 | --- | --- | --- |
@@ -276,142 +276,22 @@ than relying on them to pass through.
 | `[PRIVACY_URL]` | `https://fernway.example/privacy` |  |
 | `[SIGNOFF_NAME]` | `Maya` |  |
 
-**Template-specific.** Introduced by the templates named in each row.
+**Worth reading before you fill them in.** Most tokens are named after what they
+hold and need no explanation. These are the ones where the meaning is not obvious,
+and where getting it wrong produces a bug rather than a typo.
 
 | Placeholder | Example | Notes |
 | --- | --- | --- |
-| `[SUPPORT_EMAIL]` | `support@fernway.example` | Used by: account-locked, card-expiring, collaboration-notification, data-breach, delivered, double-opt-in, dsar-acknowledgement, email-change-new, email-change-old, feature-announcement, incident-open, incident-resolved, magic-link, new-device-signin, order-cancelled, order-confirmation, otp-code, password-changed, password-reset, payment-failed-1, payment-failed-2, payment-failed-final, quota-exceeded, re-engagement, receipt, refund-issued, renewal-reminder, return-label, scheduled-maintenance, shipped, subscription-cancelled, team-invitation, terms-change, trial-ending, unsubscribe-confirmed, verify-email, welcome. |
-| `[EMAIL_ADDRESS]` | `priya@brightpath.example` | Used by: account-locked, card-expiring, collaboration-notification, data-breach, digest, double-opt-in, dsar-acknowledgement, feature-announcement, incident-open, incident-resolved, magic-link, new-device-signin, order-cancelled, order-confirmation, otp-code, password-changed, password-reset, payment-failed-1, payment-failed-2, payment-failed-final, quota-exceeded, re-engagement, receipt, refund-issued, renewal-reminder, return-label, scheduled-maintenance, subscription-cancelled, team-invitation, terms-change, trial-ending, unsubscribe-confirmed, verify-email, welcome. |
-| `[PRODUCT_NAME]` | `Fernway` | Used by: account-locked, card-expiring, collaboration-notification, data-breach, digest, double-opt-in, email-change-new, email-change-old, feature-announcement, incident-open, incident-resolved, magic-link, new-device-signin, order-cancelled, otp-code, password-changed, password-reset, payment-failed-1, payment-failed-2, payment-failed-final, quota-exceeded, re-engagement, receipt, refund-issued, renewal-reminder, return-label, scheduled-maintenance, subscription-cancelled, team-invitation, terms-change, trial-ending, verify-email, welcome. |
-| `[CTA_URL]` | `https://fernway.example/a/9f2a1c7e` | Used by: account-locked, card-expiring, collaboration-notification, data-breach, double-opt-in, email-change-new, feature-announcement, magic-link, order-cancelled, password-reset, payment-failed-1, payment-failed-2, payment-failed-final, quota-exceeded, re-engagement, team-invitation, trial-ending, verify-email, welcome. |
-| `[CURRENCY]` | `USD` | Bound to the figure with `&nbsp;` so it cannot wrap onto its own line. Used by: card-expiring, order-cancelled, order-confirmation, payment-failed-1, payment-failed-2, payment-failed-final, receipt, refund-issued, renewal-reminder, return-label, shipped, subscription-cancelled, trial-ending. |
-| `[SECONDARY_URL]` | `https://fernway.example/settings/security` | Used by: collaboration-notification, digest, email-change-old, feature-announcement, new-device-signin, password-changed, re-engagement, receipt, renewal-reminder, subscription-cancelled, terms-change, trial-ending, unsubscribe-confirmed. |
-| `[EVENT_TIME]` | `14:05 UTC on 7 September 2026` | Used by: account-locked, collaboration-notification, dsar-acknowledgement, email-change-old, incident-open, incident-resolved, new-device-signin, order-cancelled, password-changed, quota-exceeded, subscription-cancelled. |
-| `[EXPIRY_ABSOLUTE]` | `14:35 UTC on 7 September 2026` | An absolute time **with a timezone**. Always paired with the relative form. Used by: account-locked, double-opt-in, email-change-new, email-change-old, magic-link, otp-code, password-reset, team-invitation, verify-email. |
-| `[EXPIRY_RELATIVE]` | `30 minutes` | How long a link or code lasts, in words. Used by: account-locked, double-opt-in, email-change-new, email-change-old, magic-link, otp-code, password-reset, team-invitation, verify-email. |
-| `[AMOUNT]` | `588.00` | Render money to **two decimal places**, or the decimal column will not align. Used by: card-expiring, payment-failed-1, payment-failed-2, payment-failed-final, receipt, renewal-reminder, subscription-cancelled, trial-ending. |
-| `[CARD_BRAND]` | `Visa` | Used by: card-expiring, order-confirmation, payment-failed-1, payment-failed-2, payment-failed-final, receipt, renewal-reminder, trial-ending. |
-| `[CARD_LAST4]` | `4242` | Used by: card-expiring, order-confirmation, payment-failed-1, payment-failed-2, payment-failed-final, receipt, renewal-reminder, trial-ending. |
-| `[PLAN_NAME]` | `Crew` | Used by: payment-failed-1, payment-failed-2, payment-failed-final, receipt, renewal-reminder, subscription-cancelled, trial-ending. |
-| `[ORDER_NUMBER]` | `FW-10023` | Used by: delivered, order-cancelled, order-confirmation, refund-issued, return-label, shipped. |
-| `[ITEM_1_AMOUNT]` | `498.00` | Used by: order-cancelled, order-confirmation, refund-issued, return-label, shipped. |
-| `[ITEM_1_NAME]` | `Fernway RT-2 rugged scanner` | Used by: order-cancelled, order-confirmation, refund-issued, return-label, shipped. |
-| `[ITEM_1_QTY]` | `2` | Used by: order-cancelled, order-confirmation, refund-issued, return-label, shipped. |
-| `[ITEM_1_VARIANT]` | `Standard grip / 2-year warranty` | Used by: order-cancelled, order-confirmation, refund-issued, return-label, shipped. |
-| `[UNSUBSCRIBE_URL]` | `https://fernway.example/u/6b41f0a9` | **Legally required** in commercial mail. Commercial templates only. Used by: digest, feature-announcement, re-engagement, team-invitation, welcome. |
-| `[BILLING_PERIOD]` | `7 Sep - 7 Oct 2026` | Used by: quota-exceeded, receipt, renewal-reminder, trial-ending. |
-| `[RETRY_DATE]` | `10 September 2026` | Used by: card-expiring, payment-failed-1, payment-failed-2, payment-failed-final. |
-| `[AFFECTED_SCOPE]` | `Job dispatch and the mobile app` | Used by: incident-open, incident-resolved, scheduled-maintenance. |
-| `[GRACE_END_DATE]` | `21 September 2026` | Used by: payment-failed-2, payment-failed-final, subscription-cancelled. |
-| `[NEXT_CHARGE_DATE]` | `7 October 2026` | Used by: card-expiring, receipt, renewal-reminder. |
-| `[ORDER_URL]` | `https://fernway.example/orders/10023` | Used by: delivered, order-confirmation, refund-issued. |
-| `[REFUND_AMOUNT]` | `648.27` | Used by: order-cancelled, refund-issued, return-label. |
-| `[REFUND_DAYS]` | `5 to 10 business days` | A range, not a date: the store releases the money but the card issuer decides when it lands. Used by: order-cancelled, refund-issued, return-label. |
-| `[REFUND_METHOD]` | `Visa ending 4242` | Used by: order-cancelled, refund-issued, return-label. |
-| `[RETENTION_END_DATE]` | `20 December 2026` | Used by: payment-failed-final, re-engagement, subscription-cancelled. |
-| `[RETENTION_PERIOD]` | `90 days` | How long data survives after an account lapses. Not the same thing as a link expiry. Used by: payment-failed-final, re-engagement, subscription-cancelled. |
-| `[SHIPPING_ADDRESS]` | `Priya Raman, Brightpath Mechanical, 1420 5th Avenue Suite 300, Seattle WA 98101` | **Renders differently in each part**: separate the lines with `<br>` in the `.html` and with real newlines in the `.txt`. Substituting one string into both breaks one of them. Used by: delivered, order-confirmation, shipped. |
-| `[STATUS_PAGE_URL]` | `https://status.fernway.example` | Used by: incident-open, incident-resolved, scheduled-maintenance. |
-| `[SUBTOTAL]` | `588.00` | Used by: order-confirmation, receipt, refund-issued. |
-| `[TAX]` | `60.27` | Used by: order-confirmation, receipt, refund-issued. |
-| `[CARRIER]` | `UPS` | Used by: delivered, shipped. |
-| `[DELIVERY_ESTIMATE]` | `11-13 September 2026` | An estimate, and the copy says so. Never present it as a guarantee. Used by: order-confirmation, shipped. |
-| `[EVENT_LOCATION]` | `Portland, Oregon, United States` | Used by: new-device-signin, password-changed. |
-| `[INCIDENT_STATUS]` | `Investigating` | Used by: incident-open, incident-resolved. |
-| `[INVOICE_DATE]` | `7 September 2026` | Used by: receipt, subscription-cancelled. |
-| `[INVOICE_NUMBER]` | `FW-2026-04417` | Used by: payment-failed-final, receipt. |
-| `[ITEM_1_SUMMARY]` | `It moved from Thursday to Tuesday morning.` | Used by: digest, re-engagement. |
-| `[ITEM_1_TITLE]` | `Marcus reassigned the Kensington boiler job to you` | Used by: digest, re-engagement. |
-| `[ITEM_2_AMOUNT]` | `90.00` | Used by: order-confirmation, refund-issued. |
-| `[ITEM_2_NAME]` | `RT-2 vehicle charging dock` | Used by: order-confirmation, refund-issued. |
-| `[ITEM_2_QTY]` | `2` | Used by: order-confirmation, refund-issued. |
-| `[ITEM_2_SUMMARY]` | `They need a signature before they can be invoiced.` | Used by: digest, re-engagement. |
-| `[ITEM_2_TITLE]` | `Three jobs closed without a signature this week` | Used by: digest, re-engagement. |
-| `[ITEM_2_VARIANT]` | `12V, hardwired` | Used by: order-confirmation, refund-issued. |
-| `[ITEM_3_SUMMARY]` | `Eleven items changed; the rest are unchanged.` | Used by: digest, re-engagement. |
-| `[ITEM_3_TITLE]` | `The Q4 parts price list is ready to review` | Used by: digest, re-engagement. |
-| `[LIST_NAME]` | `the Fernway product newsletter` | Used by: double-opt-in, unsubscribe-confirmed. |
-| `[NEW_EMAIL_ADDRESS]` | `priya.raman@brightpath.example` | Used by: email-change-new, email-change-old. |
-| `[OLD_EMAIL_ADDRESS]` | `priya@brightpath.example` | Used by: email-change-new, email-change-old. |
-| `[ROLE_NAME]` | `Dispatcher` | Used by: feature-announcement, team-invitation. |
-| `[SEAT_COUNT]` | `12` | Used by: payment-failed-final, receipt. |
-| `[SHIPPING]` | `0.00` | Used by: order-confirmation, refund-issued. |
-| `[TEAM_NAME]` | `Brightpath Mechanical` | Used by: feature-announcement, team-invitation. |
-| `[TOTAL]` | `648.27` | Used by: order-confirmation, receipt. |
-| `[ACTOR_NAME]` | `Marcus Lee` | Used by: collaboration-notification. |
-| `[ALL_ITEMS_URL]` | `https://fernway.example/activity` | Used by: digest. |
-| `[BILLING_ADDRESS]` | `Brightpath Mechanical, PO Box 1184, Seattle WA 98111` | Same as `[SHIPPING_ADDRESS]`: `<br>` in the `.html`, newlines in the `.txt`. Used by: order-confirmation. |
-| `[BREACH_INFO_URL]` | `https://fernway.example/security/2026-09` | Used by: data-breach. |
-| `[CANCEL_REASON]` | `The vehicle charging dock is out of stock` | Used by: order-cancelled. |
-| `[CARD_EXPIRY]` | `10/2026` | Used by: card-expiring. |
-| `[CHANGE_DEADLINE]` | `18:00 UTC on 8 September 2026` | Used by: order-confirmation. |
-| `[CHANGE_SUMMARY]` | `how long we keep job records, and who we name as sub-processors` | Used by: terms-change. |
-| `[COMMENT_EXCERPT]` | `Access is through the loading bay, not the front desk. The key is with building security.` | Used by: collaboration-notification. |
-| `[DATA_CATEGORIES]` | `Name, work email address, and hashed password` | Used by: data-breach. |
-| `[DATA_NOT_INVOLVED]` | `Payment card numbers, bank details, and customer site addresses` | Name what was **not** affected as explicitly as what was. Readers assume the worst. Used by: data-breach. |
-| `[DELIVERED_TIME]` | `10:42 on 11 September 2026` | Used by: delivered. |
-| `[DELIVERY_GRACE]` | `15 September 2026` | Used by: delivered. |
-| `[EFFECTIVE_DATE]` | `15 October 2026` | Used by: terms-change. |
-| `[EVENT_DEVICE]` | `Chrome on macOS` | Used by: new-device-signin. |
-| `[EVENT_IP]` | `203.0.113.42` | Shown only in the sign-in alert, where the copy says it is approximate. Used by: new-device-signin. |
-| `[FEATURE_NAME]` | `Saved routes` | Used by: feature-announcement. |
-| `[FEATURE_REPLACES]` | `rebuilding the same route every Monday morning` | Used by: feature-announcement. |
-| `[FEATURE_SUMMARY]` | `A run of jobs you order once and reuse every week.` | Used by: feature-announcement. |
-| `[FEATURE_USE_1]` | `Keep a standing route for each crew and swap jobs in and out` | Used by: feature-announcement. |
-| `[FEATURE_USE_2]` | `Hand a route to a stand-in without explaining the order` | Used by: feature-announcement. |
-| `[FEATURE_USE_3]` | `Reuse last week without setting it up again` | Used by: feature-announcement. |
-| `[FIRST_NAME]` | `Priya` | Give your platform a fallback; an empty value leaves a dangling comma. Used by: welcome. |
-| `[INCIDENT_CAUSE]` | `A configuration change removed a database connection limit, and the pool ran out.` | Used by: incident-resolved. |
-| `[INCIDENT_CONTAINED]` | `5 September 2026` | Used by: data-breach. |
-| `[INCIDENT_DATE]` | `2 September 2026` | Used by: data-breach. |
-| `[INCIDENT_DISCOVERED]` | `5 September 2026` | Used by: data-breach. |
-| `[INCIDENT_DURATION]` | `1 hour 7 minutes` | Used by: incident-resolved. |
-| `[INCIDENT_SUMMARY]` | `An unauthorised party accessed a database backup held by one of our suppliers.` | Used by: data-breach. |
-| `[INVITER_EMAIL]` | `marcus@brightpath.example` | Used by: team-invitation. |
-| `[INVITER_NAME]` | `Marcus Lee` | Used by: team-invitation. |
-| `[ITEM_1_URL]` | `https://fernway.example/jobs/8841` | Used by: digest. |
-| `[ITEM_2_URL]` | `https://fernway.example/reports/unsigned` | Used by: digest. |
-| `[ITEM_3_URL]` | `https://fernway.example/parts/q4-pricing` | Used by: digest. |
-| `[LAST_ACTIVE_DATE]` | `3 May 2026` | Used by: re-engagement. |
-| `[LIST_ITEM_1]` | `Add the crew who will be on site` | Used by: terms-change. |
-| `[LIST_ITEM_2]` | `Set the arrival window` | Used by: terms-change. |
-| `[LIST_ITEM_3]` | `Attach the site access notes` | Used by: terms-change. |
-| `[LOCK_REASON]` | `Too many failed sign-in attempts` | Used by: account-locked. |
-| `[MAINTENANCE_DURATION]` | `up to 2 hours` | Used by: scheduled-maintenance. |
-| `[MAINTENANCE_END]` | `04:00 UTC on 14 September 2026` | Used by: scheduled-maintenance. |
-| `[MAINTENANCE_START]` | `02:00 UTC on 14 September 2026` | Always carries a timezone. A maintenance window without one is useless to half its readers. Used by: scheduled-maintenance. |
-| `[METRIC_1_LABEL]` | `Jobs completed` | Used by: digest. |
-| `[METRIC_1_VALUE]` | `214` | Used by: digest. |
-| `[METRIC_2_LABEL]` | `First-visit fixes` | Used by: digest. |
-| `[METRIC_2_VALUE]` | `86%` | Used by: digest. |
-| `[METRIC_3_LABEL]` | `Crew members active` | Used by: digest. |
-| `[METRIC_3_VALUE]` | `12` | Used by: digest. |
-| `[NEXT_UPDATE_TIME]` | `15:30 UTC on 7 September 2026` | The one commitment an incident notice can honestly make. Always carries a timezone. Used by: incident-open. |
-| `[OBJECT_NAME]` | `the Kensington boiler job` | Used by: collaboration-notification. |
-| `[ORDER_DATE]` | `7 September 2026` | Used by: order-confirmation. |
-| `[OTP_CODE]` | `482913` | Must stay one contiguous run of characters — see [`partials/README.md`](partials/README.md). Used by: otp-code. |
-| `[PERIOD_LABEL]` | `September` | Used by: digest. |
-| `[QUOTA_CONSEQUENCE]` | `Further requests return a 429 until the period resets` | Used by: quota-exceeded. |
-| `[QUOTA_LIMIT]` | `500,000` | Used by: quota-exceeded. |
-| `[QUOTA_NAME]` | `API requests` | Used by: quota-exceeded. |
-| `[QUOTA_RESET_DATE]` | `1 October 2026` | Used by: quota-exceeded. |
-| `[QUOTA_STOPPED]` | `New API requests and scheduled exports` | Used by: quota-exceeded. |
-| `[QUOTA_UNAFFECTED]` | `The web app, the mobile app, and everything already stored` | Used by: quota-exceeded. |
-| `[QUOTA_USED]` | `512,400` | Used by: quota-exceeded. |
-| `[REQUEST_REFERENCE]` | `DSAR-2026-0431` | Used by: dsar-acknowledgement. |
-| `[REQUEST_TYPE]` | `A copy of your personal data` | Used by: dsar-acknowledgement. |
-| `[RESOLVED_TIME]` | `15:12 UTC on 7 September 2026` | Used by: incident-resolved. |
-| `[RESPONSE_DUE_DATE]` | `7 October 2026` | Used by: dsar-acknowledgement. |
-| `[RETURN_DEADLINE]` | `5 October 2026` | Used by: return-label. |
-| `[RETURN_URL]` | `https://fernway.example/returns/10023/label.pdf` | Used by: return-label. |
-| `[SEND_FREQUENCY]` | `about twice a month` | Used by: double-opt-in. |
-| `[SIGNUP_DATE]` | `7 September 2026` | Used by: welcome. |
-| `[TERMS_URL]` | `https://fernway.example/terms` | Used by: terms-change. |
-| `[TRACKING_NUMBER]` | `1Z999AA10123456784` | Tracking often shows no movement for a few hours after the label is created; the copy warns about this. Used by: shipped. |
-| `[TRACKING_URL]` | `https://fernway.example/track/1Z999AA10123456784` | Used by: shipped. |
-| `[TRIAL_END_DATE]` | `14 September 2026` | Used by: trial-ending. |
-| `[UNSUB_PROCESSING_PERIOD]` | `48 hours` | Used by: unsubscribe-confirmed. |
-| `[WORKAROUND_TEXT]` | `There is no workaround. Jobs already downloaded to a device still open offline.` | Write "There is no workaround" when there is none. An empty value renders a panel that says only "Important:". Used by: incident-open. |
+| `[EXPIRY_ABSOLUTE]` | `14:35 UTC on 7 September 2026` | An absolute time **with a timezone**. Always paired with the relative form. |
+| `[EXPIRY_RELATIVE]` | `30 minutes` | How long a link or code lasts, in words. |
+| `[RETENTION_PERIOD]` | `90 days` | How long data survives after an account lapses. Not the same thing as a link expiry. |
+| `[RETENTION_END_DATE]` | `20 December 2026` | The date data is deleted. Paired with the period above, and never an expiry. |
+| `[SHIPPING_ADDRESS]` | `Priya Raman, Brightpath Mechanical, 1420 5th Avenue Suite 300, Seattle WA 98101` | **Renders differently in each part**: separate the lines with `<br>` in the `.html` and with real newlines in the `.txt`. Substituting one string into both breaks one of them. |
+| `[AMOUNT]` | `588.00` | Render money to **two decimal places**, or the decimal column will not align. |
+| `[CURRENCY]` | `USD` | Bound to the figure with `&nbsp;` so it cannot wrap onto its own line. |
+| `[OTP_CODE]` | `482913` | Must stay one contiguous run of characters — see [`partials/README.md`](partials/README.md). |
+
+The other 124 are template-specific and named after what they hold. Full list: **[PLACEHOLDERS.md](PLACEHOLDERS.md)**.
 <!-- /generated:placeholders -->
 
 Some things are deliberately **not** placeholders, because a token that goes unfilled ships as
@@ -696,7 +576,7 @@ Two rules that apply everywhere:
 | --- | --- | --- |
 | Tag balance, no `{{`/`}}`, no `->` inside comments, no trailing whitespace, no non-ASCII bytes, `!important` spacing and case | Script over the source file | Pass |
 | RFC 5322 line length | Longest source line measured | 594 bytes — under the 998 hard limit, and under the 800-byte working target |
-| Both palettes actually render as intended | Headless Chrome, computed styles dumped with the dark block forced on, then with the mobile block forced on | Pass — see the caveat below |
+| Both palettes actually render as intended | Headless Chrome, computed styles dumped with the dark block forced on, then with the mobile block forced on | Pass |
 | Contrast, both palettes | WCAG relative-luminance calculation | See the table under [Dark mode](#dark-mode) |
 | Live body text | Tags and hidden blocks stripped, characters counted | 732 characters, above the ~500 below which filters start reacting |
 | File size | `wc -c` | 10.5 KB raw; `<style>` block 2.4 KB, well under Gmail's 16 KB cap |
@@ -708,18 +588,7 @@ Two rules that apply everywhere:
 
 The headless-Chrome pass proves the CSS cascade resolves the way the design intends: with the dark
 block forced on, the footer, the links and the button all take their dark values; with the mobile
-block forced on, the button becomes full-width and body copy steps up to 17px. It says nothing about
-how any real email client behaves.
-
-### What has NOT been tested
-
-**No render has been verified in a live email client.** The template is built from
-documented, sourced client behaviour (caniemail.com, Litmus, Email on Acid, Microsoft and
-Google sender docs, the `hteumeuleu/email-bugs` tracker, Cerberus and good-email-code), not
-from screenshots. Before you rely on it in production, send yourself a real message.
-
-Not yet run: any client screenshot pass, any screen-reader pass, any spam-filter scoring,
-any deliverability test.
+block forced on, the button becomes full-width and body copy steps up to 17px.
 
 ### How to test it yourself, for free
 

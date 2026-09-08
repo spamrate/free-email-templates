@@ -24,6 +24,7 @@ sys.path.insert(0, os.path.join(ROOT, 'tools'))
 import demo
 
 README = os.path.join(ROOT, 'README.md')
+PLACEHOLDERS = os.path.join(ROOT, 'PLACEHOLDERS.md')
 PREVIEW = os.path.join(ROOT, 'index.html')
 SAMPLE_START = '/* generated:sample */'
 SAMPLE_END = '/* /generated:sample */'
@@ -56,6 +57,7 @@ NOTE = {
     '[EXPIRY_ABSOLUTE]': 'An absolute time **with a timezone**. Always paired with the relative form.',
     '[EXPIRY_RELATIVE]': 'How long a link or code lasts, in words.',
     '[RETENTION_PERIOD]': 'How long data survives after an account lapses. Not the same thing as a link expiry.',
+    '[RETENTION_END_DATE]': 'The date data is deleted. Paired with the period above, and never an expiry.',
     '[EVENT_IP]': 'Shown only in the sign-in alert, where the copy says it is approximate.',
     '[FIRST_NAME]': 'Give your platform a fallback; an empty value leaves a dangling comma.',
     '[OTP_CODE]': 'Must stay one contiguous run of characters — see [`partials/README.md`](partials/README.md).',
@@ -103,6 +105,62 @@ def contents_table():
     return '\n'.join(out)
 
 
+def placeholder_reference():
+    """The full reference, as its own file.
+
+    138 rows is a reference, not orientation. In the README it pushed everything people
+    actually read — how it is built, compliance, testing — past line 400, and the widest
+    row ran to 676 characters because it listed all 33 templates that use it.
+    """
+    templates = sorted(glob.glob(os.path.join(ROOT, 'templates', '*', '*.html')))
+    where = collections.defaultdict(list)
+    per_template = collections.defaultdict(set)
+    for f in templates:
+        rel = os.path.relpath(f, os.path.join(ROOT, 'templates')).replace(os.sep, '/')[:-5]
+        for ph in set(re.findall(r'\[[A-Z0-9_]+\]', io.open(f, encoding='utf-8').read())):
+            where[ph].append(rel)
+            per_template[rel].add(ph)
+
+    shared = sorted(p for p in where if len(where[p]) == len(templates))
+    out = [
+        '# Placeholder reference',
+        '',
+        'Every token in every template. You almost certainly do not need this page — open the',
+        'template you are using and the tokens are right there, in `[UPPERCASE]`. This is for',
+        'looking one up, or for wiring the whole set into a sending platform at once.',
+        '',
+        'The [README](README.md) covers the handful that are shared across all templates and the',
+        'handful whose meaning is easy to get wrong.',
+        '',
+        '---',
+        '',
+        '## By template',
+        '',
+        'What one template needs, which is usually the question you actually have.',
+        '',
+    ]
+    for rel in sorted(per_template):
+        toks = ' '.join(f'`{t}`' for t in sorted(per_template[rel]))
+        out += [f'**[`{rel}`](templates/{rel}.html)**', '', toks, '']
+
+    out += ['---', '', '## Every token, alphabetically', '',
+            '| Placeholder | Example | Used by |', '| --- | --- | --- |']
+    for ph in sorted(where):
+        users = sorted(where[ph])
+        used = 'every template' if len(users) == len(templates) else ', '.join(
+            u.split('/')[1] for u in users)
+        ex = EXAMPLE.get(ph, '')
+        note = NOTE.get(ph, '')
+        # the notes are written for the README, where "#compliance" resolves; from this
+        # file the same anchor is dead, so point it back at the README
+        note = re.sub(r'\]\(#', '](README.md#', note)
+        cell = (note + ' ' if note else '') + used
+        out.append(f"| `{ph}` | {('`' + ex + '`') if ex else ''} | {cell} |")
+    out += ['', f'{len(where)} placeholders across {len(templates)} templates. '
+                f'{len(shared)} are used by every template.', '']
+    return '\n'.join(out)
+
+
 def placeholder_table():
     templates = sorted(glob.glob(os.path.join(ROOT, 'templates', '*', '*.html')))
     where = collections.defaultdict(list)
@@ -123,12 +181,20 @@ def placeholder_table():
         ex = EXAMPLE.get(ph, '')
         return f"| `{ph}` | {('`' + ex + '`') if ex else ''} | {note.strip()} |"
 
-    out = ['**Every template uses these.** They are the ones you set once for your product.', '',
+    tricky = [p for p in ('[EXPIRY_ABSOLUTE]', '[EXPIRY_RELATIVE]', '[RETENTION_PERIOD]',
+                          '[RETENTION_END_DATE]', '[SHIPPING_ADDRESS]', '[AMOUNT]',
+                          '[CURRENCY]', '[OTP_CODE]') if p in where]
+
+    out = ['**Set once for your product.** Every template uses these.', '',
            '| Placeholder | Example | Notes |', '| --- | --- | --- |']
     out += [row(p, False) for p in shared]
-    out += ['', '**Template-specific.** Introduced by the templates named in each row.', '',
+    out += ['', '**Worth reading before you fill them in.** Most tokens are named after what they',
+            'hold and need no explanation. These are the ones where the meaning is not obvious,',
+            'and where getting it wrong produces a bug rather than a typo.', '',
             '| Placeholder | Example | Notes |', '| --- | --- | --- |']
-    out += [row(p, True) for p in local]
+    out += [row(p, False) for p in tricky]
+    out += ['', f'The other {len(local) - len(tricky)} are template-specific and named after what '
+                f'they hold. Full list: **[PLACEHOLDERS.md](PLACEHOLDERS.md)**.']
     return '\n'.join(out)
 
 
@@ -207,7 +273,10 @@ def main():
     preview_updated = splice(preview_current, SAMPLE_START, SAMPLE_END, preview_sample())
     preview_updated = splice(preview_updated, OPTIONS_START, OPTIONS_END, preview_options())
 
-    if updated == current and preview_updated == preview_current:
+    reference_current = io.open(PLACEHOLDERS, encoding='utf-8').read() \
+        if os.path.exists(PLACEHOLDERS) else ''
+    if (updated == current and preview_updated == preview_current
+            and reference_current == placeholder_reference()):
         print(f'docs are up to date ({n_templates} templates, {n_ph} placeholders)')
         return 0
     if check_only:
@@ -215,6 +284,7 @@ def main():
         return 1
     io.open(README, 'w', encoding='utf-8').write(updated)
     io.open(PREVIEW, 'w', encoding='utf-8').write(preview_updated)
+    io.open(PLACEHOLDERS, 'w', encoding='utf-8').write(placeholder_reference())
     print(f'docs regenerated ({n_templates} templates, {n_ph} placeholders)')
 
     # scan the templates, not the README: the README also mentions tokens in prose

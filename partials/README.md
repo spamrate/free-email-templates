@@ -196,5 +196,3 @@ cell, not just the wrapper.
 `<caption>` (Mail.ru re-emits its text before the table, which is acceptable degradation). Treat
 `<th scope>` and `<caption>` as *shipped in production* (WooCommerce sends them) rather than as
 *measured support*, and send yourself a test before relying on them.
-
-No render has been verified in a live email client.
